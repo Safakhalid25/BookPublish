@@ -1,0 +1,195 @@
+.new_edit_chap_bg{
+    background-image: url(../../Assets/images/booknames.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 45px 0px;
+    position: relative;
+    /* opacity: 76%; */
+}
+.ql-container.ql-snow{
+    border: none;
+}
+.ql-toolbar.ql-snow{
+    border: 2px solid #6100A8;
+    background: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 26px;
+    /* z-index: 99999;
+    position: relative; */
+}
+.ql-editor{
+    padding: 24px 30px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+    color: #7B809A;
+}
+.edit_chap_box{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+}
+
+.publish_content_btn{
+    background: #360C55;
+    color: #fff;
+    border-radius: 379px;
+    border: none;
+    padding: 12px 60px;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35.62px;
+    text-align: center;
+
+}
+.modal-content .publish_chap_modal{
+    background: #212121;
+    border-radius: 7px;
+    padding: 20px 12px;
+}
+.publish_chap_title{
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.chap_name_label{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.24px;
+    text-align: left;
+    color: #CBCBCB;
+}
+.chap_name_input {
+    border: 1px solid #515151;
+    background: #171717;
+    width: 100%;
+    padding: 12px;
+    color: #CBCBCB;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.chap_name_input input[type="text"]{
+    border: 1px solid #515151;
+    background: #171717;
+    width: 100%;
+    padding: 12px;
+    color: #CBCBCB;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.selection_time_box_bg{
+    background: #171717;
+    padding: 20px 13px;
+    margin-top: 30px;
+    border-radius: 14px;
+}
+
+.chapters_selection_text{
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 33.24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.chap_selection_option_box{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #9E9E9E;
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.01px;
+    text-align: left;
+}
+.chap_selection_option_box:focus-visible{
+    border: none;
+    outline: none;
+}
+.scheduled_publishing_text{
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 33.24px;
+    text-align: left;
+    color: #fff;
+}
+
+.set_time_input_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 17px;
+    background: #212121;
+    border: none;
+    border-radius: 17px;
+    align-items: center;
+    margin-top: 20px;
+}
+.time_input_box{
+   
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.9px;
+    text-align: left;
+    color: #fff;  
+    
+}
+.set_time_icon{
+    color: #fff !important;
+    font-size: 12px !important;
+}
+.save_publish_btn{
+    background: #6100A8;
+    font-family: Jost;
+    padding: 7px ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 33px;
+    width: 100%;
+}
+.publish_btn_div{
+    text-align: center;
+    margin-top: 20px;
+}
+.cancel_publish_btn{
+    background: #272727;
+    font-family: Jost;
+    padding: 7px ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 33px;
+    width: 100%;
+    margin-top: 20px;
+}
+@media (max-width:480px){
+    .ql-editor {
+        font-size: 10px;
+    }
+}

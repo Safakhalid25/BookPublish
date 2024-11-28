@@ -1,0 +1,40 @@
+.chapter_title_typewriter{
+    /* color: #fff; */
+    font-family: Jost;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 56.81px;
+    text-align: center;
+    color: #FFFBEF;
+
+}
+.hero_title_divider{
+    background: #fff;
+    height: 2px;
+    margin: 13px auto;
+    width: 55%;
+    display: block;
+}
+.title_imgs{
+
+}
+@media (max-width:1024px){
+    .chapter_title_typewriter {
+        font-size: 40px;
+    }
+}
+@media(max-width:600px){
+    .chap_title_box_space{
+        margin-top: 30px;
+    }
+    .chapter_title_typewriter {
+        font-size: 25px;
+        line-height: 35.81px;
+    }
+}
+@media (max-width:390px){
+    .chapter_title_typewriter {
+        font-size: 20px;
+        line-height: 31.81px;
+    }
+}

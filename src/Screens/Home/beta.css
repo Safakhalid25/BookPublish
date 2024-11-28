@@ -1,0 +1,2029 @@
+.banner-sec,
+.top-authors,
+.mana-coin,
+.feature-books,
+.popular-tags,
+.join-us,
+.completed-novel {
+  overflow: hidden;
+}
+html, body {
+  max-width:100%;
+  overflow-x:hidden;
+  position: relative;
+}
+
+/* Typing Effect Start */
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #fff; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.card-img, .card-img-top {
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+  height: 356px;
+}
+.strong::-webkit-scrollbar {
+  width: 5px;
+}
+
+.strong::-webkit-scrollbar-track {
+  background: #e7e7e7; 
+     border-radius: 10px;
+}
+
+.strong::-webkit-scrollbar-thumb {
+  background: #210d46; 
+     border-radius: 10px;
+}
+
+
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    /* border-color: #fff; */
+  }
+}
+/* Typing Effect End */
+
+/* Navigation  Start*/
+.header__logo {
+  margin-bottom: -100%;
+}
+.header__logo a.navbar-brand {
+  margin-right: 0;
+}
+.header-navbar .navbar {
+  padding-bottom: 0;
+}
+.header-navbar .header__logo-img {
+  width: 140px;
+  margin: auto;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+}
+.header-navbar .navbar-nav .nav-link.active {
+  color: #360c55;
+}
+.header-navbar .navbar-nav .nav-link.active:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: #360c55;
+  border-radius: 20%;
+  position: relative;
+  top: 20px;
+}
+.header-navbar .navbar-nav .nav-link {
+  color: #838383;
+  padding: 20px 10px;
+  font-size: 16px;
+}
+
+.popular_tabing .slick-next::before {
+  color: #2c0657;
+  visibility: visible;
+  font-size: 36px;
+  position: absolute;
+  left: -8px;
+}
+.popular_tabing .slick-prev::before {
+  color: #2c0657;
+  visibility: visible;
+  font-size: 36px;
+  position: absolute;
+  left: -6px;
+}
+
+
+/* Navigation  End*/
+
+/* Update Navbar Start */
+.header-navbar.jost-font {
+  padding: 15px 0;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-navbar-list {
+  list-style: none;
+  margin: 0 15px;
+}
+.main-navbar {
+  display: flex;
+  justify-content: start;
+}
+.main-navbar-2 {
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.main-navbar-logo img {
+  width: 128px;
+  margin: auto;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  margin-bottom: -45%;
+  /* z-index: 9999; */
+  position: relative;
+}
+.main-navbar-logo {
+  display: flex;
+  align-items: center;
+}
+.main-navbar .main-navbar-link {
+  color: #838383;
+  padding: 30px 0px;
+  font-size: 16px;
+}
+.main-navbar .main-navbar-link.navbar-active {
+  color: #360c55;
+}
+.main-navbar .main-navbar-link.navbar-active:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: #360c55;
+  border-radius: 20%;
+  position: relative;
+  top: 30px;
+}
+.searchbox-and-icon-container {
+  display: flex;
+  column-gap: 10px;
+  margin-left: 10px;
+}
+.header__search {
+  border: 1px solid #c1c1c1;
+  border-radius: 30px;
+  overflow: hidden;
+  /* margin-top: -10px; */
+}
+.header__search input.form-control {
+  border: none;
+  padding: 10px;
+  font-size: 12px;
+}
+.header__search input.form-control:focus {
+  box-shadow: none;
+  border: none;
+}
+.header__search .search__btn {
+  padding-right: 0;
+  border: none;
+}
+.header__search .search__btn:hover {
+  color: #c1c1c1;
+  background-color: unset;
+  border: none;
+}
+.header__search .category__icon {
+  border: none;
+  background: #360c55;
+  color: #fff;
+}
+.user__icon-container {
+  display: flex;
+  /* margin-top: -10px; */
+  align-items: center;
+}
+.user__icon-container a {
+  padding: 5px 19px !important;
+  color: #fff !important;
+}
+.user__icon-container .user__icon {
+  background: #111111;
+  border-radius: 20px 0 0 20px;
+}
+.user__icon-container .user__icon-plus {
+  background: #360c55;
+  border-radius: 0 20px 20px 0;
+}
+.user__icon-container .user__icon_two {
+  background: #111111;
+  border-radius: 20px 0 0 20px;
+  padding: 5px 19px;
+}
+.user__icon-container .user__icon-plus_two {
+  background: #360c55;
+  border-radius: 0 20px 20px 0;
+  padding: 11px 9px;
+}
+.user__icon-container .reads_login {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  background: #000;
+  color: #FFFFFF;
+  border-radius: 38px;
+  border: #000;
+  padding-right: 0px;
+  text-align: center;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 10px !important;
+  padding-right: 0px !important;
+  /* margin: 0px 12px; */
+}
+.user__icon-container .iconn_login {
+    /* padding: 4px; */
+    background: #360C55;
+    border-radius: 1px 18px 17px 0px;
+    padding: 9px 15px 9px 11px !important;
+    margin-left: 12px;
+}
+/* Update Navbar End */
+
+/* Banner Section Start */
+.banner-sec {
+  padding: 80px 0 0px;
+  background-image: url(../../../src/Assets/images/bannerbg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.banner-sec .section__heading h1 {
+  font-size: 188px;
+}
+.banner-sec .section__heading h2 {
+  line-height: 1;
+  margin-top: 0px;
+  color: #fff;
+}
+.special_little {
+  display: block;
+}
+.banner-sec .section__heading p {
+  margin: 10px auto 15px auto;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #fff;
+}
+.banner-sec .join__us-btns .offer__icon {
+  background-color: #360c55;
+  color: #fff;
+}
+.banner__img-sec img {
+  display: block;
+  margin: 0 auto;
+}
+.banner-sec .banner__img-sec img {
+  max-width: 1300px;
+}
+.banner-sec button.slick-arrow.slick-next {
+  right: 25%;
+  top: 63%;
+  opacity: 1;
+  z-index: 99;
+}
+.banner-sec button.slick-arrow.slick-prev {
+  left: 23%;
+  top: 63%;
+  opacity: 1;
+  z-index: 99;
+}
+.banner-sec .slick-arrow.slick-next::before {
+  content: url(../../../src/Assets/images/slick-next-white.png);
+  opacity: 1;
+  transition: all 0.15s;
+  background: #360c55;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  display: inline-block;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-sec .slick-arrow.slick-prev::before {
+  content: url(../../../src/Assets/images/slick-preve-white.png);
+  opacity: 1;
+  transition: all 0.15s;
+  background: #360c55;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  display: inline-block;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-sec .slick-arrow.slick-prev::before,
+.banner-sec .slick-arrow.slick-next::before {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.9);
+}
+
+/* Banner Section End */
+.author__product_title{
+  /* font-family: 'Jost'; */
+  color: #2C2C2C;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33.03px;
+  text-align: left;
+
+}
+
+
+#featured__books_img{
+  height: 400px;
+}
+/* Social Section Start */
+.social-section {
+  padding: 40px 0;
+  background: #000;
+}
+/* Social Section End */
+
+/* Top Authors Start Here */
+.top-authors {
+  padding: 60px 0;
+  background-image: url(../../../src/Assets/images/topauthor-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.top__author-cartoon img {
+  position: absolute;
+  bottom: 0;
+  height: 90%;
+}
+.top__author-before img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+}
+.top__author-after img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+}
+.new_feature_para {
+  font-size: 15px;
+  margin: 30px auto;
+  max-width: 790px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: #fff;
+}
+.new_special_heading{
+  color: #fff;
+  font-family: 'Jost';
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 45.97px;
+  text-align: center;
+
+}
+.tags {
+  margin: 30px 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.tags .tag {
+  padding: 5px 18px;
+  background-color: #360c55;
+  margin: 0 10px;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.section__heading {
+  text-align: center;
+  margin-bottom: 40px;
+  z-index: 99;
+}
+.section__heading h1 {
+  font-size: 160px;
+  font-weight: 900;
+  -webkit-text-stroke: 1px #370c5585;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.section__heading h2 {
+  font-size: 78px ;
+  font-weight: 900;
+  margin-top: -121px;
+  color: #360c55;
+  position: relative;
+}
+
+
+
+
+.section__heading p {
+  font-size: 15px;
+  margin: 30px auto;
+  max-width: 790px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.section__heading .tags {
+  margin: 30px 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.section__heading .tags .tag {
+  padding: 5px 18px;
+  background-color: #360c55;
+  margin: 0 10px;
+  color: #fff;
+  border-radius: 30px;
+}
+.cart__icon-arrow {
+  transform: rotate(-45deg);
+}
+
+.top-authors .slick-slide {
+  padding: 0 10px 0 10px;
+}
+.top-authors button.slick-arrow.slick-next {
+  right: 1%;
+  top: 40%;
+  opacity: 1;
+}
+.top-authors button.slick-arrow.slick-prev {
+  left: -5px;
+  top: 40%;
+  z-index: 999;
+}
+.top-authors .slick-arrow.slick-next::before {
+  content: url(../../../src/Assets/images/slick-next-white.png);
+  opacity: 1;
+  transition: all 0.15s;
+  background: #6100a8;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  display: inline-block;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-authors .slick-arrow.slick-prev::before {
+  content: url(../../../src/Assets/images/slick-preve-white.png);
+  opacity: 1;
+  transition: all 0.15s;
+  background: #6100a8;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  display: inline-block;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Follow Section Start */
+.follow-us {
+  background-color: #000;
+  padding: 50px 0;
+}
+.follow-us .follow-us-title {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Follow Section End */
+
+.author__poduct img {
+  width: 100%;
+}
+.author__poduct {
+  position: relative;
+}
+
+.cart_overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+}
+.cart__box {
+  border: 1px solid #fff;
+  padding: 20px 40px 0;
+  margin: auto 25px;
+}
+.cart__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart__icon {
+  color: #000;
+  background-color: #fff;
+  padding: 5px 10px;
+  font-size: 22px;
+  margin: 10px 5px;
+}
+.addToCart__btn {
+  font-size: 23px;
+  width: 100%;
+  color: #360c55;
+  border: none;
+  margin-top: 19px;
+  padding: 10px;
+}
+
+.author__poduct:hover .cart_overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.product__titled-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.author__poduct_title {
+  /* font-size: 22px;
+  text-align: left;
+  font-weight: 700;
+  margin-right: 25px; */
+}
+/* .product__icon {
+  font-size: 22px;
+} */
+.product__icon img {
+  width: 20px;
+}
+.product__price {
+  font-family: 'Aeriast';
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 40.01px;
+  text-align: left;
+  color: #000000;
+}
+.product__price span {
+  margin-right: 5px;
+  line-height: 1;
+  font-family: 'Aeriast';
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+
+}
+.product__price .discount__price {
+  /* font-size: 25px; */
+  /* font-family: "aeriast"; */
+  font-family: 'Jost';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 38.71px;
+  text-align: left;
+  color:#360C55;
+
+}
+.product__price .actual__price {
+  /* font-size: 19px; */
+  text-decoration: line-through;
+  font-family: 'Jost';
+  font-size: 14.43px;
+  font-weight: 700;
+  line-height: 20.84px;
+  text-align: left;
+  color: #360C55;
+}
+/* Top Auther End Here */
+
+/* Mana Coins Start */
+.mana-coin {
+  padding: 25px 0 0;
+  background-image: url(../../../src/Assets/images/mana-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.mana-display img {
+  display: block;
+  max-width: 260px;
+  margin: 0 auto 0;
+  /* z-index: 999999; */
+}
+.wheelImg img{
+  display: block;
+  max-width: 360px;
+  margin: 0 auto 0;
+  /* z-index: 999999; */
+}
+.card_boxes_{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.cardImg img{
+  display: block;
+  max-width:115px;
+  margin: 0 auto 0;
+  /* z-index: 999999; */
+}
+
+
+.mana-coin .section__heading h1 {
+  -webkit-text-stroke: 2px #d1d1d185;
+  -webkit-text-fill-color: transparent;
+}
+.mana-coin .section__heading p {
+  color: #fff;
+}
+/* .mana-coin .section__heading h2::before {
+  background-image: url(../../../src/Assets/images/mana-coins.png);
+  background-size: 10px 20px;
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  content: "";
+}
+.mana-coin .section__heading h2::after {
+  content: url(../../../src/Assets/images/mana-coins.png);
+} */
+.mana-coin .section__heading h2::before,
+.mana-coin .section__heading h2::after {
+  background-image: url(../../../src/Assets/images/mana-coins.png);
+  background-size: 100%;
+  display: inline-block;
+  width: 70px;
+  height: 80px;
+  content: "";
+  background-repeat: no-repeat;
+}
+
+.mana-coin .join__us-btns .offer__icon {
+  background-color: #360c55;
+}
+.mana-anime img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 350px;
+  z-index: 99;
+}
+/* Mana Coins End */
+
+/* Combine Sec BG Start */
+.combine-section {
+  background-image: url(../../../src/Assets/images/mul-sec-bg.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+/* Combine Sec BG End */
+
+/* Featured Book Here */
+.feature-books {
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../../src/Assets/images/Featured_bg.png); */
+  background-image: url(../../../src/Assets/images/featured-bg-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0 200px;
+  /* padding: 60px 0px 250px 0px; */
+}
+.new_feature_book_spacing{
+  margin-bottom: 87px;
+  margin-top: -198px;
+}
+.feature-books .section__heading p,
+.feature-books .section__heading h2 {
+  color: #fff;
+}
+.feature-books .section__heading h2 {
+  margin-top: -140px;
+}
+.feature-books .section__heading h1 {
+  -webkit-text-stroke: 1px #fff;
+  opacity: 0.3;
+}
+.featured__books h3.card-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.featured__books p {
+  font-size: 13px;
+  color: #535353;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.featured__book-desc {
+  font-size: 16px;
+  line-height: 2;
+}
+.featured__books .card {
+  border: 1px solid #000;
+}
+.featured__books .card,
+.featured__books .card-img-top {
+  border-radius: unset;
+}
+.featured__books .card-body {
+  padding: 25px;
+}
+.product__price-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+.feature-books .discount__price {
+  font-size: 23px;
+  font-weight: 700;
+  color: #360c55;
+  font-family: 'jost';
+}
+.feature-books .actual__price {
+  font-size: 13px;
+  color: #360c55;
+  font-family: 'jost';
+}
+.feature-books .product__price-div {
+  margin: 12px 0;
+}
+.product_hover-effect:hover .product__price-div .product__icon img {
+  filter: brightness(0) invert(1);
+}
+.rating__div {
+  color: #f8c100;
+}
+
+.product_hover-effect:hover .featured_books-body,
+.product_hover-effect:hover .featured_books-body h3,
+.product_hover-effect:hover .featured_books-body p,
+.product_hover-effect:hover .featured_books-body .discount__price,
+.product_hover-effect:hover .featured_books-body .actual__price {
+  transition: all 0.5s;
+}
+.product_hover-effect:hover .featured_books-body {
+  /* background-color: #360c55; */
+  background-image: url(../../../src/Assets/images/books-hover-bg.png);
+  background-size: cover;
+}
+.product_hover-effect:hover .featured_books-body h3,
+.product_hover-effect:hover .featured_books-body p,
+.product_hover-effect:hover .featured_books-body .discount__price {
+  color: #fff;
+}
+.product_hover-effect:hover .featured_books-body .actual__price {
+  color: #868686;
+}
+
+/* Featured Book End Here */
+
+/* Hary Potter Section Start Here */
+
+.harry-potter {
+  /* margin: 50px 0; */
+}
+.harry-potter-bg {
+  background-image: url(../../../src/Assets/images/harrypotter-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.harry__potter-img img {
+  width: 100%;
+}
+.harry__potter-content h1 {
+  font-size: 62px;
+  font-weight: 500;
+  color: #fff;
+}
+.harry__potter-content p {
+  font-size: 16px;
+  line-height: 42px;
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.8;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.harry__potter-section {
+  padding: 60px 40px 60px 30px;
+}
+.offer-remain-time {
+  /* background: rebeccapurple; */
+  background: linear-gradient(
+    90.08deg,
+    rgba(255, 255, 255, 0.2) -25.07%,
+    rgba(255, 255, 255, 0) 51.22%,
+    rgba(255, 255, 255, 0.2) 111.34%
+  );
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 20px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.offer-end {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.offer-lable {
+  font-size: 28px;
+}
+.offer-btn-group button {
+  color: #fff;
+  padding: 0px 0px 0px 35px;
+  border: none;
+  font-size: 18px;
+  border-radius: 30px;
+  background: #000;
+  overflow: hidden;
+}
+.offer__icon {
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  background-color: #360c55ed;
+  height: 100%;
+  padding: 15px 20px;
+  margin-left: 30px;
+}
+.new_released{
+  background-image: url(../../Assets/images/newreleased.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 59px 0px;
+}
+.new_released h1.new_book_heading{
+  font-family: 'Jost';
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 102.97px;
+  text-align: center;
+  color:#fff;
+}
+
+.harrypotter_books {
+  background: #f3f3f3;
+  /* border-right: 3px solid #cfcfcf; */
+}
+.harrypotter_books-title {
+  font-size: 14px;
+  font-weight: 700;
+  max-width: 10ch;
+}
+.harrypotter_books-body {
+  font-size: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.harrypotter_books-price .discount__price {
+  font-size: 20px;
+  font-weight: 400;
+}
+.harrypotter_books-price .actual__price {
+  font-size: 15px;
+  font-weight: 400;
+}
+.harrypotter_book {
+  padding: 10px;
+  /* background-color: #f3f3f3; */
+  /* border-right: 3px solid #cfcfcf; */
+}
+.harrypotter_book.active {
+  /* border-right: 3px solid #360c55; */
+}
+
+.harrypotter_book img {
+  max-width: 100%;
+  transform: scale(1.3);
+}
+.harrypotter_books-col {
+  background: #f3f3f3;
+  overflow-y: scroll;
+  /* border-left: 20px solid #fff; */
+  height: 513px;
+}
+/* width */
+.harrypotter_books-col::-webkit-scrollbar {
+  width: 4px;
+}
+/* Track */
+.harrypotter_books-col::-webkit-scrollbar-track {
+  background: #cfcfcf;
+}
+.harrypotter_books-col::-webkit-scrollbar-thumb {
+  background: #360c55;
+}
+/* Hary Potter Section END Here */
+
+/* Populat Tags Start here */
+.popular-tags {
+  padding: 50px 0;
+  position: relative;
+}
+.top__popular-anime img {
+  position: absolute;
+  bottom: -20px;
+  height: 90%;
+}
+.large-tags {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.large-tags .large-tag {
+  background-color: #360c55;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 18px;
+  border-radius: 10px;
+}
+
+/* .joins-and-tags {
+  background-image: url(../../../src/Assets/images/joins-and-tags-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+.join-us .section__heading {
+  /* background: #360c55; */
+  background-image: url(../../../src/Assets/images/join-us-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-radius: 50px;
+  padding: 50px 0;
+  margin-bottom: 0;
+}
+.join-us .section__heading h2 {
+  color: #fff;
+}
+.join-us .section__heading h1 {
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.5;
+}
+.join-us .section__heading p {
+  color: #fff;
+  opacity: 0.8;
+}
+.join__us-btns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.join__us-btns .join__us-btn {
+  color: #fff;
+  padding: 0px 0px 0px 25px;
+  border: none;
+  border-radius: 30px;
+  background: #000;
+  overflow: hidden;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.join__us-btns .offer__icon {
+  background-color: #fff;
+  color: #360c55;
+  font-size: 17px;
+  padding: 5px 20px 5px 10px;
+  margin-left: 15px;
+}
+.popular-container {
+  z-index: 99;
+}
+.popular-before img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+}
+.popular-after img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+}
+/* Populat Tags ENd here */
+
+/* Completed Novels Start */
+.completed-novel {
+  background-image: url(../../../src/Assets/images/completednovel-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 150px;
+}
+.completed-novel .section__heading h1 {
+  -webkit-text-stroke: 1px #ffffff0a;
+}
+.completed-novel .section__heading h2 {
+  color: #fff;
+}
+.completed-novel .section__heading p {
+  color: #fff;
+}
+.completed__novel-card {
+  padding: 20px;
+  border: none;
+}
+.novel__card-boxshadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.completed__novel-card .card-body {
+  padding: 16px 0 0;
+}
+.completed__novel-card .card-title {
+  font-size: 23px;
+  font-weight: 700;
+}
+.completed__novel-card .product__price-div {
+  color: #360c55;
+}
+.completed__novel-card .product__price-div .discount__price {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 5px;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+}
+.completed__novel-card .product__price-div .actual__price {
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+}
+.completed__novel-cards {
+  max-width: 1480px;
+}
+.completed__novel-cards .slick-slide {
+  padding: 0 10px 20px 10px;
+}
+.completed__novel-cards button.slick-arrow.slick-next {
+  right: -3%;
+  top: 40%;
+}
+.completed__novel-cards button.slick-arrow.slick-prev {
+  left: 100%;
+  top: 50%;
+}
+.completed__novel-cards .slick-arrow.slick-prev::before {
+  content: url(../../../src/Assets/images/slick-prev-icon.png);
+  opacity: 1;
+  transition: all 0.15s;
+  background: #fff;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  display: inline-block;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.completed__novel-cards .slick-arrow.slick-next::before {
+  content: url(../../../src/Assets/images/slick-next-icon.png);
+  opacity: 1;
+  transition: all 0.15s;
+  background: #fff;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  display: inline-block;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.completed__novel-cards .slick-arrow.slick-next:hover::before,
+.completed__novel-cards .slick-arrow.slick-prev:hover::before {
+  width: 50px !important;
+  height: 50px !important;
+}
+/* Completed Novels End */
+
+
+.follow_social_links_text{
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 33.88px;
+  text-align: left;
+  color:  #FFFFFF;
+  text-transform: uppercase;
+  padding-right: 12px;
+}
+
+.email_envelop{
+  color: #fff ;
+  font-size: 14px;
+}
+.info_banner_box{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  
+}
+.info_data_text{
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.23px;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+.web_info_text{
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.23px;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+.banner_info_divider{
+  border-left: 1px solid #FFFFFF;
+  padding-left: 15px;
+}
+.follow_details_info_box{
+  justify-content: end;
+}
+
+
+
+
+
+
+
+
+/* Footer Start */
+.footer-sec {
+  background-image: url(../../../src/Assets/images/updatefooter.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 80px 0 50px;
+  background-position: top center;
+}
+.footer__first {
+  padding-bottom: 40px;
+}
+.footer__about-body p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0;
+  line-height: 2.3;
+}
+.footer__logo img {
+  width: 140px;
+}
+.follow__social-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.follow__social-icon i {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 6px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+}
+.follow__social-icon:hover i {
+  background: #fff ;
+  color: #330b52;
+  border: 1px solid #fff;
+}
+.foooter__subhead {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+}
+.footer__links .footer__link {
+  list-style: none;
+}
+.footer__links .footer__link a {
+  color: #fff;
+  line-height: 3;
+  font-size: 17px;
+  font-weight: normal;
+}
+.foooter__subhead::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ffffff;
+  margin-top: 14px;
+}
+.foooter__subhead::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  width: 40px;
+  height: 2px;
+  background: #ffffff;
+}
+.footer__copyright p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: 600;
+  position: relative;
+}
+.footer__copyright p:before {
+  content: "";
+  display: inline-blockblock;
+  width: 30%;
+  height: 2px;
+  background: #ffffff;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.footer__copyright p:after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 2px;
+  background: #ffffff;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+/* Footer End */
+
+/* Media Quries */
+@media (max-width: 1600px) {
+  .banner-sec .section__heading h1 {
+    font-size: 125px;
+  }
+  /* .banner-sec .banner__img-sec img {
+    max-width: 980px;
+  } */
+  .banner-sec .section__heading h2 {
+    /* margin-top: -117px; */
+    font-size: 72px;
+  }
+  .banner-sec button.slick-arrow.slick-next {
+    right: 20%;
+  }
+  .banner-sec button.slick-arrow.slick-prev {
+    left: 18%;
+  }
+  .completed__novel-cards {
+    max-width: 1340px;
+  }
+  .top__author-before img,
+  .top__author-after img {
+    width: 320px;
+  }
+}
+@media (max-width: 1400px) {
+  .banner-sec .section__heading h1 {
+    font-size: 120px;
+  }
+  .banner-sec .section__heading h2 {
+    /* margin-top: -114px; */
+    font-size: 70px;
+  }
+  .banner-sec .banner__img-sec img {
+    max-width: 950px;
+  }
+  .completed__novel-card .card-title {
+    font-size: 18px;
+  }
+  .completed__novel-card .product__price-div .discount__price {
+    font-size: 17px;
+  }
+  .completed__novel-card .product__price-div .actual__price {
+    font-size: 12px;
+  }
+  .completed__novel-cards {
+    max-width: 1280px;
+  }
+  .banner-sec button.slick-arrow.slick-prev {
+    left: 21%;
+  }
+  .banner-sec button.slick-arrow.slick-next {
+    right: 24%;
+  }
+}
+@media (max-width: 1360px) {
+  /* .completed__novel-cards {
+    max-width: 1200px;
+  } */
+}
+@media (max-width: 1280px) {
+  .dropdown-menu.more_nav_header_menu {
+   
+    left: -67px !important;
+
+}
+  .banner-sec .section__heading h1 {
+    font-size: 126px;
+  }
+  .banner-sec .section__heading h2 {
+    /* margin-top: -117px; */
+    font-size: 65px;
+  }
+  .banner-sec button.slick-arrow.slick-prev {
+    left: 18%;
+  }
+  .banner-sec button.slick-arrow.slick-next {
+    right: 22%;
+  }
+  .completed__novel-cards button.slick-arrow.slick-next {
+    right: -41px;
+  }
+  /* .banner-sec .banner__img-sec img {
+    max-width: 800px;
+  } */
+  .completed__novel-cards {
+    max-width: 1190px;
+  }
+  .popular-before img,
+  .popular-after img {
+    width: 320px;
+  }
+}
+@media (max-width:1180px){
+  .popular_tabing .slick-next::before {
+    left: -24px;
+}
+.popular_tabing .slick-prev::before {
+    left: 10px;
+}
+}
+@media (max-width: 1024px) {
+  .featured__books h3.card-title {
+    font-size: 16px;
+  }
+  .card-img, .card-img-top {
+    height: 248px;
+  }
+  .main-navbar-logo img {
+    width: 110px;
+    margin-bottom: -58%;
+  }
+  .main-navbar-list {
+    margin: 0 8px;
+  }
+  /* .input-group.header__search {
+    display: none;
+  } */
+  .searchbox-and-icon-container {
+    /* justify-content: end; */
+  }
+  .banner-sec .section__heading h1 {
+    font-size: 96px;
+  }
+  .banner-sec .section__heading h2 {
+    /* margin-top: -88px; */
+    font-size: 60px;
+    line-height: 0.9;
+  }
+  /* .banner-sec .banner__img-sec img {
+    max-width: 740px;
+  } */
+  .banner-sec {
+    padding: 60px 0 0px;
+  }
+  /* Author Sec */
+  .top-authors .section__heading h1 {
+    font-size: 120px;
+  }
+  .top-authors button.slick-arrow.slick-next {
+    right: 2%;
+  }
+  .section__heading h2 {
+    font-size: 55px;
+    margin-top: -71px;
+  }
+  .section__heading p {
+    font-size: 15px;
+    margin: 10px auto 30px;
+  }
+  .banner-sec button.slick-arrow.slick-next {
+    right: 15%;
+  }
+  .banner-sec button.slick-arrow.slick-prev {
+    left: 11%;
+  }
+
+  /*  */
+  .section__heading h1 {
+    font-size: 96px;
+  }
+  .feature-books .section__heading h1 {
+    font-size: 135px;
+  }
+  .feature-books .section__heading h2 {
+    margin-top: -80px;
+  }
+  .popular-tags .section__heading h1 {
+    font-size: 126px;
+  }
+  .author__poduct_title {
+    font-size: 18px;
+    margin-right: 1px;
+  }
+  .large-tags .large-tag {
+    padding: 7px 20px;
+    font-size: 12px;
+  }
+
+  #featured__books_img {
+    height: 311px;
+}
+ 
+  .join-us .section__heading h1 {
+    font-size: 120px;
+  }
+  .large-tags {
+    gap: 10px;
+  }
+  .product__price .discount__price {
+    font-size: 24px;
+  }
+  .product__price .actual__price {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  .featured__books .card-body {
+    padding: 10px;
+}
+  .product__icon img {
+    width: 16px;
+}
+.product__price-div {
+
+  margin: 5px 0;
+
+}
+  .completed-novel .section__heading h1 {
+    font-size: 130px;
+  }
+  .completed-novel .section__heading h2 {
+    font-size: 59px;
+    margin-top: -74px;
+  }
+  .featured__books p {
+    font-size: 12px;
+    color: #535353;
+  }
+  .harry-potter .product__price .discount__price {
+    font-size: 15px;
+  }
+  .completed__novel-cards {
+    max-width: 900px;
+  }
+  .mana-display img {
+    max-width: 253px
+  }
+  .cardImg img {
+  
+    max-width: 98px;
+  }
+  .mana-anime img {
+    height: 250px;
+  }
+  .mana-coin .section__heading h2::before,
+  .mana-coin .section__heading h2::after {
+    width: 42px;
+    height: 46px;
+  }
+  .harry-potter-bg {
+    background-size: cover;
+  }
+  .harry__potter-section {
+    padding: 50px 40px 60px 30px;
+  }
+  /* .harrypotter_books-col {
+    border-left: 10px solid #fff;
+  } */
+  .footer__copyright p:before,
+  .footer__copyright p:after {
+    width: 27%;
+  }
+ 
+}
+@media (max-width: 991px) {
+  .card-img, .card-img-top {
+    height: 308px;
+}
+  .offer-remain-time,
+  .offer-lable {
+    font-size: 22px;
+  }
+  .offer-remain-time {
+    padding: 16px;
+}
+.offer__icon {
+  padding: 8px 20px;
+
+}
+.offer-btn-group button {
+  padding: 0px 0px 0px 28px;
+  font-size: 14px;
+}
+  .harrypotter_book img {
+    width: 100%;
+    transform: unset;
+}
+  .popular_tabing .slick-next::before {
+    left: -24px;
+}
+.popular_tabing .slick-prev::before {
+    left: 10px;
+}
+  #featured__books_img {
+    height: 394px;
+}
+  .new_feature_book_spacing {
+
+    margin-top: -37px;
+}
+  .header-navbar {
+    padding: 0px 0 !important;
+  }
+  div#navbarSupportedContent {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    background-color: #fff;
+    left: 0;
+    min-height: 26rem;
+    z-index: 999;
+    padding: 15px;
+    border: solid #6100a8;;
+    border-width: 0px 2px 2px 2px;
+  }
+
+  .main-navbar-list a {
+    color: #333;
+  }
+  .cardImg img {
+    margin-top: 27px;
+    max-width: 134px;
+  }
+  .main-navbar-list {
+    border-bottom: 1px solid #f3f3f3;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  .input-group.header__search {
+    display: flex !important;
+    /* width: 30%; */
+  }
+  .main-navbar-logo img {
+    /* margin-bottom: 0; */
+    width: 95px;
+    margin-bottom: 0px;
+    /* margin-bottom: -48%; */
+  }
+  .banner-sec .section__heading h2 {
+    /* margin-top: -58px; */
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+  /* .main-navbar-logo img {
+    z-index: 9999;
+    position: relative;
+  } */
+}
+@media (max-width:768px) {
+  .header__logo {
+    margin-bottom: unset;
+  }
+  .banner-sec {
+    background-size: cover;
+    background-position: top center;
+  }
+  .banner-sec .section__heading h1 {
+    font-size: 64px;
+  }
+
+  .banner-sec .section__heading p {
+    max-width: 540px;
+  }
+  .banner-sec .banner__img-sec img {
+    max-width: 600px;
+  }
+  .top__author-before img,
+  .top__author-after img {
+    width: 230px;
+  }
+  .top-authors .section__heading h1 {
+    font-size: 100px;
+  }
+  .section__heading p {
+    max-width: 540px;
+    padding: 0 15px;
+  }
+  .section__heading h2 {
+    font-size: 55px;
+    margin-top: -67px;
+  }
+  .feature-books {
+    background-size: cover;
+    padding: 50px 0 50px;
+  }
+  .featured__books .card-body {
+    padding: 10px;
+  }
+
+  .featured__books p {
+    font-size: 14px;
+  }
+  .product__price .discount__price {
+    font-size: 20px;
+  }
+  .harry-potter-bg {
+    margin-bottom: 30px;
+  }
+  .harrypotter_book img {
+    width: 100%;
+    transform: unset;
+  }
+  .harrypotter_books-title {
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 10ch;
+  }
+  .harrypotter_books-body {
+    font-size: 15px;
+  }
+  .harry-potter .product__price .discount__price {
+    font-size: 25px;
+  }
+  .harrypotter_books-col {
+    border-left: 0px;
+    height: 643px;
+  }
+  .product__price .actual__price {
+    font-size: 15px;
+  }
+  .popular-tags .section__heading h2 {
+    font-size: 55px;
+    margin-top: -71px;
+  }
+  .join-us .section__heading h2 {
+    font-size: 55px;
+    margin-top: -71px;
+  }
+  .completed-novel {
+    padding: 20px 0 40px;
+  }
+  .completed-novel .section__heading {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .completed__novel-card .card-title {
+    font-size: 18px;
+  }
+  .completed__novel-cards {
+    max-width: 680px;
+  }
+
+  .join__us-btns .offer__icon {
+    padding: 7px 15px 7px 9px;
+    margin-left: 15px;
+  }
+  .large-tags .large-tag {
+    padding: 6px 15px;
+    font-size: 13px;
+  }
+
+  .footer__first > div {
+    margin-bottom: 40px;
+  }
+  .footer__links .footer__link a {
+    line-height: 2;
+    font-size: 17px;
+  }
+  .footer__copyright p:before,
+  .footer__copyright p:after {
+    width: 19%;
+  }
+  .new_released h1.new_book_heading{
+
+    font-size: 50px;
+  }
+  .wheelImg img {
+    max-width: 294px;
+  }
+  .cardImg img {
+    margin-top: 27px;
+    max-width: 134px;
+    gap: 24px
+}
+}
+
+@media (max-width: 736px) {
+  .harry-potter-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .harry__potter-section {
+    padding: 60px 40px 60px 70px;
+  }
+  .featured__books .card {
+    border: 1px solid #000;
+    margin-bottom: 40px;
+  }
+
+  .main-navbar-logo img {
+    width: 80px;
+    margin: auto;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 0;
+   }
+}
+@media (max-width: 600px) {
+  .follow_details_info_box{
+    justify-content: left;
+    margin-top: 20px;
+  }
+  .mana-display img {
+      max-width: 190px;
+  }
+  
+  .cardImg img {
+    margin-top: 18px;
+    max-width: 136px;
+  }
+  .new_special_heading {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  .new_released h1.new_book_heading {
+    font-size: 35px;
+}
+  .banner-sec .section__heading h1 {
+    font-size: 40px;
+  }
+  .banner-sec .section__heading h2 {
+    /* margin-top: -38px; */
+    font-size: 40px;
+  }
+  .banner-sec .banner__img-sec img {
+    max-width: 337px;
+  }
+  .top-authors .section__heading h1 {
+    font-size: 60px;
+  }
+  .section__heading h2 {
+    font-size: 40px;
+    margin-top: -47px;
+  }
+  .feature-books .section__heading h1 {
+    font-size: 90px;
+  }
+  .feature-books .section__heading h2 {
+    margin-top: -60px;
+  }
+  .popular-tags .section__heading h1 {
+    font-size: 90px;
+  }
+  .popular-tags .section__heading h2 {
+    font-size: 40px;
+    margin-top: -53px;
+  }
+
+  .mana-coin .section__heading h1 {
+    font-size: 60px;
+  }
+  .mana-coin .section__heading h2::before,
+  .mana-coin .section__heading h2::after {
+    width: 34px;
+    height: 36px;
+  }
+  .completed-novel .section__heading h1 {
+    font-size: 90px;
+  }
+  .join-us .section__heading h1 {
+    font-size: 71px;
+  }
+  .join-us .section__heading h2 {
+    font-size: 36px;
+    margin-top: -45px;
+  }
+  .completed__novel-cards {
+    max-width: 400px;
+  }
+  .harry__potter-section {
+    padding: 40px 10px 40px 10px;
+  }
+  .harry__potter-content h1 {
+    font-size: 40px;
+  }
+  .harrypotter_books-col {
+    height: 360px;
+  }
+  .offer__icon {
+    margin-left: 20px;
+  }
+  .section__heading .tags .tag {
+    padding: 5px 12px;
+    margin: 0 4px;
+    font-size: 11px;
+  }
+  .banner-sec .join__us-btns,
+  .mana-coin .join__us-btns {
+    gap: 0;
+  }
+  .footer__copyright p:before,
+  .footer__copyright p:after {
+    display: none;
+  }
+}
+
+@media (max-width: 428px) {
+  .card_boxes_ {
+    gap: 40px;
+
+}
+  .harrypotter_books-title {
+    font-size: 15px;
+    max-width: 14ch;
+}
+.harry-potter .product__price .discount__price {
+  font-size: 18px;
+}
+.product__price .actual__price {
+  font-size: 12px;
+}
+.harrypotter_books-body {
+  font-size: 13px;
+}
+  .tags .tag {
+    padding: 3px 16px;
+    margin: 0px 3px;
+    font-size: 10px;
+}
+  .new_feature_book_spacing {
+    margin-top: -56px;
+    margin-bottom: 0px;
+}
+
+.new_feature_para {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+}
+  .completed__novel-cards {
+    max-width: 320px;
+  }
+  .completed-novel .section__heading h1 {
+    font-size: 80px;
+  }
+  .completed-novel .section__heading h2 {
+    font-size: 38px;
+    margin-top: -48px;
+  }
+  .banner-sec .section__heading h1 {
+    font-size: 36px;
+  }
+  .banner-sec .section__heading h2 {
+    /* margin-top: -34px; */
+    font-size: 35px;
+  }
+  .join-us .section__heading h2 {
+    font-size: 30px;
+    margin-top: -38px;
+  }
+  .join-us .section__heading h1 {
+    font-size: 65px;
+  }
+  .new_released h1.new_book_heading{
+
+    font-size: 29px
+  }
+  .cardImg img {
+    margin-top: 18px;
+    max-width: 149px;
+  }
+  .header__search .category__icon {
+    padding: 6px;
+}
+}
+
+@media (max-width: 414px) {
+  .banner-sec .join__us-btns,
+  .mana-coin .join__us-btns {
+    gap: 15px;
+  }
+}
+@media (max-width: 390px) {
+  #featured__books_img {
+    height: 335px;
+  }
+}
+
+.author__products_link{
+color: black;
+}
+
+.newlySell__book-sec {
+  background-image: url(../../Assets/images/bgnewlybooks.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 100px 0 0;
+  position: relative;
+}
+
+.harry__potter-section{
+  overflow-x: hidden;
+}
+
+.join-us .section__heading{
+  overflow-x: hidden;
+}
+
+
+.popular-tags{
+  overflow-x: hidden;
+}
+
+
+

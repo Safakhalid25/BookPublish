@@ -1,0 +1,401 @@
+.cov {
+  background-image: url(../../Assets//images/newbanner.png);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+}
+.cov button.libs {
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  background: #360c55;
+  color: #ffffff;
+  border-radius: 38px;
+  border: 1px solid #360c55;
+  padding-right: 0px;
+  text-align: center;
+  padding: 4px 52px;
+  position: relative;
+}
+.cov button.libs::after {
+  background-image: url(../../Assets//images/Polygon6.png);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  width: 37px;
+  height: 15px;
+  content: "";
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 40%;
+}
+
+.mid {
+  padding: 0px 24px;
+}
+
+.btnrww {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 10px;
+}
+.btnrow {
+  display: flex;
+  justify-content: end;
+  padding: 0px 14px;
+}
+.watch {
+  position: relative;
+  text-align: center;
+}
+.polygons {
+  position: absolute;
+  top: 489px;
+  left: 632px;
+  width: 32px;
+}
+.cov button.history {
+  background: #d2d2d2;
+
+  color: #282828;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  border-radius: 59px;
+  padding: 4px 52px;
+
+  border: #d2d2d2;
+}
+.cov button.hist {
+  background: #d2d2d2;
+  color: #282828;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  border-radius: 59px;
+  padding: 4px 40px;
+  border: #d2d2d2;
+}
+.books {
+  background-color: #fff;
+  margin-top: 50px;
+  margin-bottom: 85px;
+  padding-bottom: 24px;
+}
+.books img.bookcover {
+  margin-top: -20px;
+  padding-bottom: 28px;
+}
+.books img.clock {
+  position: absolute;
+  left: -11px;
+  top: -43px;
+}
+.books h3.name {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30.17px;
+  text-align: left;
+  color: #2e2e2e;
+  padding: 14px;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+.books button.category {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 500;
+  color: #360c55;
+  background: #d9d9d9;
+  border: #d9d9d9;
+  padding: 5px 33px;
+  border-radius: 23px;
+}
+.main {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.main_history {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.rates {
+  color: #360c55;
+  display: flex;
+  padding: 20px;
+}
+.books p.rating {
+  font-family: "Jost";
+  font-size: 14.45px;
+  font-weight: 600;
+  line-height: 25.69px;
+  color: #360c55;
+  line-height: 17.69px;
+  margin-bottom: 0px;
+}
+.books p.detail {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28.85px;
+  color: #2c2c2c;
+  padding: 0px 25px 15px 25px;
+}
+/* .res{
+  display:flex
+} */
+span.view {
+  font-family: "Jost";
+  font-size: 14.45px;
+  font-weight: 700;
+  line-height: 25.69px;
+  color: #360c55;
+  background: transparent;
+  border: transparent;
+  padding: 0px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.lines {
+  border: 1px solid #360c55;
+}
+.books p.nums {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.69px;
+  padding: 0px 15px;
+  color: #360c55;
+}
+span.numberr {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25.69px;
+  color: #696969;
+}
+
+span.drop {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #360c55;
+}
+span.pick {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #169b00;
+}
+
+.books button.reads {
+  font-family: "Poppins";
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  background: #000;
+  color: #ffffff;
+  border-radius: 38px;
+  border: #000;
+  padding-right: 0px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  padding-right: 0px;
+}
+
+.iconn {
+  /* padding: 4px; */
+  background: #360c55;
+  border-radius: 1px 18px 17px 0px;
+  padding: 10px 15px 10px 11px;
+}
+.cov button.reading {
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  background: #fff;
+  color: #360c55;
+  border-radius: 38px;
+  border: 0px solid #fff;
+  padding-right: 0px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+.books img.vote {
+  width: 20px;
+  height: 20px;
+}
+.icons {
+  /* padding: 4px; */
+  background: #360c55;
+  border-radius: 1px 18px 17px 0px;
+  padding: 9px 18px 9px 11px;
+}
+@media only screen and (max-width: 1024px) {
+  .btnrww {
+  }
+  .cov button.libs::after {
+    width: 27px;
+  }
+  .iconn {
+    padding: 10px 11px 10px 11px;
+  }
+
+  .polygons {
+    display: none;
+  }
+  .btnrow {
+    justify-content: left;
+  }
+  .books button.reads {
+    font-size: 10px;
+    gap: 12px;
+  }
+  /* .res{
+      display: none;
+  } */
+  .books button.category {
+    margin-top: 6px;
+  }
+  .books {
+    padding-bottom: 20px;
+  }
+  /* .icons{
+      padding: 7px 5px 3px 5px;
+  } */
+  .cov button.reading {
+    font-size: 10.45px;
+    padding-left: 15px;
+  }
+  .books {
+    margin-bottom: 60px;
+  }
+  .cov button {
+    font-size: 12px;
+    padding: 2px 14px;
+  }
+  .cov button.libs {
+    font-size: 12px;
+
+    padding: 2px 26px;
+  }
+  .cov button.hist {
+    font-size: 12px;
+
+    padding: 2px 14px;
+  }
+  .cov button.history {
+    font-size: 12px;
+
+    padding: 2px 24px;
+  }
+  .books img.bookcover {
+    /* width: 31%; */
+    padding-bottom: 0px;
+  }
+  .book h3.name {
+    font-size: 19.28px;
+  }
+
+  /* .book img.clock {
+
+  left: 40px;
+
+} */
+  .btnrww {
+    justify-content: left;
+    padding: 0px 14px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .books button.reads {
+    font-size: 13px;
+  }
+}
+/* @media only screen and (max-width: 320px){
+  .book img.clock {
+      top: -33px;
+      width: 25%;
+  }
+} */
+
+@media (max-width: 991px) {
+  /* .library_waiting_history_img{
+    width: 35%;
+} */
+  .books img.bookcover {
+    margin-left: auto;
+    margin-right: auto;
+    width: 31%;
+  }
+  /* .main{
+  justify-content: center;
+} */
+}
+
+@media only screen and (max-width: 768px) {
+  .books img.vote {
+    width: 26px;
+    height: 32px;
+  }
+  .res {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  /* .book button.read {
+      font-size: 10px;
+      gap: 12px;
+  
+  } */
+  .polygons {
+    left: 406px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .polygons {
+    left: 945px;
+  }
+  .books img.clock {
+    left: 35px;
+  }
+}
+@media (max-width: 600px) {
+}
+
+@media only screen and (max-width: 375px) {
+  .books img.clock {
+    left: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .books img.clock {
+    left: 79px;
+  }
+}

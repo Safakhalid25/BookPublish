@@ -1,0 +1,327 @@
+.novinfo{
+    background-image: url(../../Assets/images/clouds.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 0px 100px 0px;
+}
+.create_detail_bg{
+    padding: 7px;
+    background: #360C55;
+    width: 100%;
+}
+.create_detail_text{
+    font-family: Jost;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 68.47px;
+    text-align: center;
+    color:#fff;
+}
+.novinfo h1.novel{
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 50px;
+    font-weight: 700;
+    color: #360C55;
+
+}
+.upload_cover_heading{
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 23px;
+    font-weight: 700;
+    color: #360C55;
+
+}
+.spacing{
+    padding: 25px 0px;
+}
+.form-name
+{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    color: #1B1B1B;
+}
+.f-ph{
+    border-radius: 27px;
+    padding: 4px 20px;
+    border: 1px solid;
+    color:#7C7C7C;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+}
+.updatebtn {
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #360C55;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 53px;
+    cursor: pointer;
+}
+
+
+.btnmain{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    
+}
+.bookform{
+    border: 3px dashed #360C55;
+    padding: 30px 17px;
+}
+.novinfo img.nvlbk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+    height: 145px;
+}
+.addsyn{
+    background-image: url(../../Assets/images/add.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px 0px 272px 0px;
+}
+.novinfo .addsyn h2.add{
+    font-family: 'Jost';
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 43.04px;
+    text-align: center;
+    color: #fff;
+}
+.novinfo h4.book-release-title{
+    font-family: 'Jost';
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30.1px;
+    text-align: left;
+    color:#262626;
+}
+.book-release-genre-dropdowns{
+    border: 1px solid;
+    border-radius: 37px;
+    padding: 5px 10px;
+    background-color:#D9D9D9;
+  }
+.bookGenree{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.book-release-genree {
+    background: #360C55;
+    color: white;
+    border-radius: 21px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 7px 23px;
+}
+.book-releasee-input{
+
+    color: #360C55;
+    padding: 15px 13px;
+    background-color: #D9D9D9;
+    border: 1px solid #9696ce;
+    width: 100% ;
+}
+.search-title{
+    font-size: large;
+    font-weight: 600;
+}
+.radbtns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+  }
+.filter_radio{
+    color: #360C55;
+    font-size: large;
+    align-items: center;
+}   
+.form-control:focus-within {
+    color: var(--form-control-color);
+  }
+
+:root {
+  --form-control-color: rebeccapurple;
+}
+
+.form-control + .form-control {
+  margin-top: 1em;
+}
+
+.form-control:focus-within {
+  color: var(--form-control-color);
+}
+
+input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    /* transform: translateY(-0.075em); */
+    display: grid;
+    place-content: center;
+  }
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: CanvasText;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="radio"]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+}
+
+.book-releasee-input{
+    color: #360C55;
+    padding: 10px 13px;
+    background-color: #D9D9D9;
+    border: 1px solid #9696ce;
+    width: 100% ;
+    font-size: 12px;
+    margin-top: 17px !important;
+}
+.book-releasee-inputs{
+    color: #360C55;
+    padding: 10px 13px;
+    background-color: #D9D9D9;
+    border: 1px solid #9696ce;
+    width: 100% ;
+    font-size: 12px;
+    margin-top: 27px !important;
+
+}
+
+@media (max-width:991px){
+    .book-release-genree {
+        font-size: 10px;
+        padding: 6px 16px;
+    }
+    .create_detail_text {
+        font-size: 32px;
+        line-height: 51.47px;
+    }
+   
+}
+@media (max-width: 768px) {
+    
+    .novinfo h1.novel{
+        font-size: 36px;
+    }
+    .book-release-genree {
+        font-size: 11px;
+        padding: 5px 13px;
+    }
+    .novinfo img.nvlbk {
+        height: 94px;
+    }
+    .updatebtn{
+        padding: 8px 31px;
+    }
+    .addsyn {
+        padding: 25px 0px 220px 0px;
+    }
+    .upload_cover_heading {
+        font-size: 19px;
+    }
+}
+@media (max-width: 600px) {
+    .new_create_request_row_direction{
+        flex-direction: column-reverse;
+    }
+    .bookform {
+      
+        margin-top: 25px;
+    }
+    .create_detail_text {
+        font-size: 27px;
+        line-height: 49.47px;
+    }
+}
+@media (max-width: 480px) {
+    
+    .book-release-genree {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+    
+    .bookGenree {
+        margin-bottom: 34px;
+    }
+    .space{
+        padding-top: 30px;
+    }
+    .novinfo img.nvlbk {
+        height: 145px;
+        width: 50%;
+       
+    }
+    .radbtns {
+
+        gap: 23px;
+    }
+    .addsyn {
+        margin-top: 30px;
+    }
+    .novinfo h1.novel {
+        font-size: 22px;
+    }
+    .novinfo .addsyn h2.add {
+ 
+        font-size: 22px;
+    }
+    .novinfo h4.book-release-title {
+        font-size: 22px;
+    }
+    .filter_radioo {
+        font-size: 13px;
+        line-height: 14.49px;
+    }
+   
+}
+@media (max-width:390px){
+    .book-release-genree {
+        font-size: 9px;
+        padding: 4px 5px;
+    }
+    .create_detail_text {
+        font-size: 24px;
+        line-height: 42.47px;
+    }
+}

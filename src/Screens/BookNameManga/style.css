@@ -1,0 +1,30 @@
+.manga_book_name_text{
+    color: #FFFBEF;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 20.54px;
+    text-align: center;
+
+}
+.manga_book_name_bg{
+    background: #6100A8;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding: 8px 9px;
+    border-radius: 21px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width:600px){
+    .manga_book_name_text {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .manga_book_name_bg {
+        width: 28%;
+        padding: 5px 7px;
+    }
+}

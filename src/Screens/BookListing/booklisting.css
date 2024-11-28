@@ -1,0 +1,384 @@
+
+.book_listing_new_bg{
+  background-image:url(../../Assets/images/bookListingBg.png) !important;
+  background-size: 100% 100% !important;
+}
+
+.bestselling_books {
+  background-image:url(../../Assets/images//book-listing-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bestSell__book-sec {
+  background-image: url(../../Assets/images/books-of-months-bg.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 100px 0 0;
+  position: relative;
+}
+.bestSell__book-cartoon1 img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 170px;
+}
+.bestSell__book-title {
+  margin-bottom: 30px;
+}
+
+.bestSelling__books {
+  position: relative;
+}
+.bestSelling__books img {
+  width: 100%;
+ 
+}
+.bestSell__book-cartoon2 img {
+  position: absolute;
+  right: 50px;
+  width: auto;
+  bottom: -30px;
+}
+
+.bestSell__bookListing-sec {
+  padding: 60px 0;
+}
+
+.filters__tabs {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #360c55;
+  padding: 6px 10px;
+  border-radius: 25px;
+  background: #fff;
+}
+.filters__tabs .filters__tab {
+  border: none;
+  background: #fff;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+.filters__category_price{
+  border: 2px solid #360c55;
+  padding: 6px 20px;
+  border-radius: 25px;
+  margin-top: 13px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.filter_radio_booklisting {
+  color: #360C55;
+  font-size: 17px;
+  align-items: center;
+}
+.book-release-title_booklisting {
+  /* font-size: x-large; */
+  font-family: 'Jost';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30.1px;
+  text-align: left;
+  color: #262626;
+}
+.book-release-input_booklisting {
+  color: #360C55;
+  padding: 7px 13px;
+  background-color: #D9D9D9;
+  border: 1px solid #9696ce;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+
+.booklisting_radbtns{
+  justify-content: center;
+}
+
+#bestsellingimg{
+  height: 350px;
+  /* height: 100%; */
+}
+.color_down{
+  color: #fff !important;
+}
+.form-select.new_filter_select{
+  background-image: none !important;
+cursor: pointer;
+  /* color: #fff;  */
+  /* --bs-form-select-bg-img: none !important; */
+}
+
+.filters__category_two select{
+  background-color: #5b3473;
+  color: #fff;
+  border-radius: 17px;
+    font-size: 13px;
+    /* width: 163px; */
+}
+.filters__category_two select:focus{
+  box-shadow: unset;
+  border: 2px solid #fff;
+
+}
+.filters__tabs .filters__tab.filters__tab-active {
+  background: #360c55;
+  color: #fff;
+  font-size: 12px;
+}
+.filters__category select,
+.filters__pricing select {
+  border: 2px solid #360c55;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.filters__category select:focus,
+.filters__pricing select:focus {
+  box-shadow: unset;
+  border: 2px solid #360c55;
+}
+.filters__search {
+  border: 2px solid #360c55;
+  padding: 1px 4px;
+  border-radius: 25px;
+  overflow: hidden;
+  background: #fff;
+}
+.input-group{
+  gap:10px
+}
+.filters__search .filters__search-btn {
+  border: none;
+  background: #360c55;
+  color: #fff;
+  padding: 5px 27px;
+  border-radius: 25px !important;
+  font-size: 12px;
+}
+.filters__search .filters__search-input {
+  border: none;
+  font-size: 12px;
+  padding: 3px 5px;
+}
+.filters__search .filters__search-input:focus {
+  box-shadow: unset;
+}
+.filters__search .filters__search-icon {
+  border: unset;
+  padding: 3px 10px;
+}
+.filters__search .filters__search-icon:hover {
+  background: transparent;
+  color: #000;
+}
+
+/* Best Books Listing Start Here */
+.bestBooks__listing {
+  margin-top: 60px;
+}
+.bestBooks__list {
+  width: 90%;
+  margin: 0 auto 50px;
+  position: relative;
+}
+.bestBooks__list img {
+  width: 100%;
+  height: 364px;
+}
+.bestBooks__list-overlay .bestBooks__purchase-btn {
+  border: none;
+  background: #fff;
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #360c55;
+}
+.bestBooks__list-body {
+  margin: 20px 0;
+  text-align: center;
+}
+.bestBooks__list-body .bestBooks__list-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+
+  line-height: 1.5;
+}
+.bestBooks__list-body .bestBooks__list-text {
+  font-size: 15px;
+  color: #000;
+  opacity: 1;
+  line-height: 1.5;
+}
+.bestBooks__list-overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bestBooks__list:hover .bestBooks__list-overlay {
+  bottom: 0;
+  height: 100%;
+}
+.bestBooks__list-img {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.book__listing-pagination {
+  margin-top: 20px;
+}
+.book__listing-pagination .pagination {
+  justify-content: center;
+}
+.book__listing-pagination .pagination .page-link {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  background: #6565658a;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.book__listing-pagination .pagination .page-link.page_link-active {
+  background: #360c55;
+}
+.book__listing-pagination .pagination .page-link:focus {
+  box-shadow: none;
+}
+/* Best Books Listing Ends Here */
+
+@media (max-width: 1024px) {
+  .filters__search .filters__search-input {
+    font-size: 11px;
+    padding: 3px 0px;
+}
+  .filters__tabs .filters__tab {
+    padding: 3px 15px;
+  }
+  .bestSell__book-title h2 {
+    font-size: 40px;
+  }
+  .bestSell__book-cartoon2 img {
+    right: 50px;
+    width: 25%;
+  }
+  .bestSell__book-sec {
+    padding: 50px 0 0;
+  }
+  .bestSell__book-cartoon1 img {
+    width: 110px;
+  }
+  .filters__tabs .filters__tab.filters__tab-active {
+    font-size: 13px;
+    
+  }
+}
+
+@media  only screen and (min-width:768px) and (max-width:991px){
+  .author_input_space{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .filters__search .filters__search-icon {
+    padding: 3px 3px;
+  }
+  .filters__category_two select {
+    font-size: 11px;
+  }
+  .filter_radio_booklisting {
+    font-size: 14px;
+  }
+  .filters__search .filters__search-btn{
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* .filters__search {
+    margin-top: 20px;
+  } */
+  .bestSell__book-title h2 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 600px) {
+  .filters__category_two select {
+    
+    width: 89px;
+}
+  .filter_radio_booklisting {
+   
+    font-size: 13px;
+   
+}
+.filters__category_two select {
+
+  font-size: 10px;
+}
+.bestSell__bookListing-sec {
+  padding:  20 !important;
+}
+  .booklisting_radbtns{
+    justify-content: left;
+  }
+  .radbtns_space{
+    margin-top: 30px;
+  }
+  .filters__tabs .filters__tab {
+    padding: 5px 13px;
+}
+.filters__tabs .filters__tab.filters__tab-active {
+  font-size: 10px;
+}
+}
+
+@media (max-width: 480px) {
+ 
+  .filters__category,
+  .filters__pricing {
+    margin-top: 20px;
+  }
+  .bestSell__book-cartoon1 img {
+    width: 70px;
+  }
+  .bestSell__book-cartoon2 img {
+    right: 20px;
+    width: 23%;
+    bottom: -10px;
+  }
+  #bestsellingimg {
+    height: 438px;
+  }
+  .bestBooks__list-img{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 390px) {
+  #bestsellingimg {
+    height: 375px;
+  }
+}

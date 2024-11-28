@@ -1,0 +1,292 @@
+.inner__hero-sec {
+  padding: 120px 0;
+  background-image: url(../../Assets/images/author-inner-bg.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: block;
+}
+.herro__title h1 {
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFBEF;
+  /* color: #fff; */
+}
+
+/* Carousel Start */
+.authors__carousel {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.relativePart {
+  position: relative;
+  z-index: 999;
+}
+
+.authors__carousel {
+  padding: 60px 0;
+  text-align: center;
+  background-image: url(../../Assets/images/author_carousel-bg.png);
+  background-size: cover;
+  background-position: top center;
+}
+.authors__carousel-title h2 {
+  font-size: 60px;
+  color: #6100a8;
+  font-weight: 600;
+  padding: 0 0 60px 0;
+}
+.authors__carousel .carousel-image img {
+  width: 100%;
+}
+/* Carousel End */
+
+.author__of-month {
+  background-image: url(../../Assets/images/author-of-month-bg.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+/* Author List Start */
+.authors__list {
+  padding: 60px 0;
+  position: relative;
+  background-image: url(../../Assets/images/Anime.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35% 100%;
+}
+/* .authors__list::after {
+  content: "";
+  background-image: url(../../Assets/images/bg-anime.png);
+  width: 510px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 320px;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+.author__list-cartoon img {
+  position: absolute;
+  bottom: 0;
+  height: 20%;
+}
+.author__list-bgCartoon img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  z-index: 1;
+}
+.author__list-row {
+  padding: 50px 0;
+  z-index: 999;
+}
+
+.author__img img {
+  width: 100%;
+}
+.author__list-title h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.author__list-title hr {
+  margin: 7px 0;
+  border: 1px solid #6100a8;
+  opacity: 1;
+}
+.author__list-body p {
+  font-size: 15px;
+  text-transform: capitalize;
+  opacity: 0.8;
+  padding: 10px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.author__list-body p {
+  font-size: 15px;
+  text-transform: capitalize;
+  opacity: 0.8;
+  line-height: 2.5;
+}
+.genre__title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.author__list-genre {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.genere__tags .genere__tag {
+  background: #dfdfdf;
+  padding: 7px 20px;
+  display: inline-block;
+  border-radius: 15px;
+  margin-right: 10px;
+  color: #454545;
+}
+.genere__tags .genere__tag.genere__tag-active {
+  background: #6100a8;
+  color: #fff;
+}
+.rating__title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.author__list-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author__list-rating .rating__div {
+  color: #6100a8;
+}
+.author__list-rating .rating__btn {
+  background: #360c55;
+  color: #fff;
+  padding: 7px 25px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+}
+.authors__list .author__list-row:nth-last-of-type(odd) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.authors__list
+  .author__list-row:nth-last-of-type(odd)
+  .author__list-footer
+  > .row {
+  flex-direction: row-reverse;
+}
+/* Author List End */
+@media (max-width:1280px){
+  .herro__title h1 {
+    font-size: 64px;
+  }
+
+}
+@media (max-width:600px){
+  
+  .authors__carousel-title h2 {
+    padding: 0px;
+  }
+  .authors__carousel .carousel-image img {
+    width: 37%;
+    margin-top: 7px;
+}
+}
+@media (max-width: 1024px) {
+  .herro__title h1 {
+    font-size: 50px;
+  }
+  .inner__hero-sec {
+    padding: 70px 0;
+  }
+  .genere__tags .genere__tag {
+    padding: 5px 13px;
+  }
+  .genre__title {
+    font-size: 16px;
+  }
+  .rating__title {
+    font-size: 16px;
+  }
+  .author__list-rating .rating__btn {
+    padding: 7px 19px;
+  }
+  .author__list-cartoon img {
+    height: 9%;
+  }
+}
+@media (max-width:991px){
+  .author__list-cartoon {
+    opacity: 0.5;
+}
+.author__img img {
+  width: 15%;
+}
+.author__list-row {
+  padding: 11px 0;
+
+}
+}
+@media (max-width: 768px) {
+  .authors__list{
+    padding: 0px;
+    background-size: 100% 100%;
+  }
+  .author__img img {
+    width: 140px;
+  }
+  .authors__list .author__list-row:nth-last-of-type(odd) {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+  .authors__list
+    .author__list-row:nth-last-of-type(odd)
+    .author__list-footer
+    > .row {
+    flex-direction: unset;
+  }
+  .author__list-cartoon img {
+    height: 6%;
+  }
+  .author__list-bgCartoon img {
+    transform: translateX(-60%);
+    height: 70%;
+  }
+  .authors__carousel-title h2 {
+    font-size: 30px;
+   
+  }
+}
+
+@media (max-width: 480px) {
+  .author__list-rating {
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+  .genere__tags .genere__tag {
+    font-size: 14px;
+  }
+  .author__list-bgCartoon img {
+    height: 40%;
+  }
+  .herro__title h1 {
+    font-size: 30px;
+  }
+  .authors__carousel-title h2 {
+    font-size: 22px;
+   
+  }
+}
+@media (max-width:428px){
+ 
+}
+@media (max-width:375px){
+  .herro__title h1 {
+    font-size: 22px;
+  }
+  .genere__tags .genere__tag {
+    padding: 0px 10px;
+    font-size: 13px;
+  }
+  .author__list-rating .rating__btn {
+    padding: 0px 19px;
+    font-size: 13px;
+}
+}
+

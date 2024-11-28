@@ -1,0 +1,498 @@
+.favorite_book_with_dropdown{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    }
+
+.abt_author_bg{
+    background-image: url(../../Assets/images/booknameBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 20px 0px; */
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 85px;
+}
+
+.abt_author_img {
+    width: 25%;
+    margin-top: -68px;
+}
+.abt_author_stars{
+    color: #6100A8;
+    font-size: 17px;
+}
+.author_rating{
+    font-family: 'Jost';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #360C55;
+}
+.arlemit_text{
+    font-family: 'Jost';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 62.19px;
+    color: #360C55;
+
+}
+.arlemit_img {
+    width: 32px;
+    height: 32px;
+}
+.ranking_details{
+    font-family: Jost;
+font-size: 18px;
+font-weight: 500;
+line-height: 27.35px;
+color: #1E1E1E;
+text-align: left;
+/* width: 42%; */
+}
+.favorite_icon{
+    color: #FFFFFF;
+    font-size: 12px
+}
+.favorite_text{
+    font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.96px;
+    color: #FFFFFF;
+}
+.favorite_box{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: #360C55;
+    padding: 9px 61px;
+    border-radius: 24px;
+}
+.more_icon_btn{
+background: #2D2D2D;
+color: #D9D9D9;
+border: none;
+padding: 10px 25px;
+border-radius: 24px;
+}
+.custom_dropdown_menu{
+    background: #161616;
+    padding: 14px;
+    border-radius: 12px;
+    width: 224px;
+
+}
+.custom_dropdown-items{
+    color: #fff;
+    font-family: 'Jost';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.03px;
+    text-align: left;
+
+}
+.custom_dropdown_options{
+background-color: #212121;
+padding: 14px;
+border-radius: 12px;
+}
+ul.custom_ul{
+    margin-left: -78px !important;
+    margin-top: 4px !important;
+
+}
+.custom_dropdown-icons{
+    color: #fff;
+    font-size: 13px;
+}
+.custom_dropdown_divider{
+    height: 1px;
+    background: #3d3d3d;
+    margin: 6px 0px;
+}
+.custom_dropdown-items_div{
+
+    background-color: #6100A8;
+    padding: 4px 77px;
+    border-radius: 22px;
+    margin-top: 9px;
+}
+.custom_dropdown-items:hover{
+ 
+
+}
+.dropdown::after{
+ 
+}
+.social_box_main{
+display: flex;
+margin-top: 10px;
+justify-content: end;
+flex-wrap: wrap;
+
+}
+.custom_social_box{
+    background: #360C55;
+    padding: 9px 91px;
+    border-radius: 24px;
+    align-items: center;
+}
+.social_text{
+    font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #360C55;
+    padding: 9px 91px;
+    border-radius: 24px;
+    align-items: center;
+    border: none;
+}
+.social_icon{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.custom_chat_dropdown-items{
+    color: #fff;
+    font-family: 'Jost';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.03px;
+    text-align: center;
+
+}
+.social_chat_icons_div{
+display: flex;
+flex-wrap: wrap;
+gap: 14px;
+justify-content: center;
+}
+.custom_dropdown_social_icons{
+    width: 13%;
+}
+.global_icons_div{
+    display: flex;
+    gap: 21px;
+    justify-content: end;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.global_icons_with_text{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.global_icons{
+    color: #360C55;
+    font-size: 15px;
+}
+.global_text{
+    font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1E1E1E;
+
+}
+.abt_author_divider{
+    height: 2px;
+    background-color: #d9d9d9;
+    /* background-color: #747474; */
+    margin: 24px 0px;
+}
+.writing_reading_bg{
+    background-image: url(../../Assets/images/starpointBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 21px;
+    padding: 57px 0px;
+    position: relative;
+
+}
+.writing_points{
+    font-family: 'Jost';
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+}
+.writing_text{
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.35px;
+    text-align: center;    
+    color: #fff;
+    text-align: center;
+}
+.writing_reading_divider{
+
+
+}
+.content_with_divider{
+    display: flex;
+    justify-content: space-between;
+}
+.star_points_img{
+    width: 6%;
+    height: 20%;
+    position: absolute;
+    top: -10px;
+    right: -33px;
+}
+.publish_book_bg{
+    box-shadow: rgb(0 0 0 / 41%) 1.95px 1.95px 2.6px;
+    background-color: #EDEDED;
+    padding: 6px 0px;
+    margin: 37px 0px;
+}
+.publish_text{
+    font-family: 'Jost';
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 73.4px;
+    text-align: center;
+    color: #360C55;
+    text-transform: uppercase;
+}
+.abt_author_action{
+    font-family: 'Jost';
+    font-size: 22px;
+    font-weight: 500;
+    /* line-height: 51px; */
+    text-align: left;
+    color: #360C55;
+    padding-top: 20px;
+}
+.abt_author_book_name{
+    font-family: Jost;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 36.61px;
+    text-align: left;
+    color: #090909;
+}
+.author_book_category_btn{
+    background-color: #8c749e;
+    color: #fff;
+    font-family: 'Jost';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    padding: 3px 29px;
+    border-radius: 23px;
+    border: none;
+}
+.author_book_updated_btn{
+    background-color: #705AB8;
+    padding: 5px 33px;
+    border-radius: 23px;
+    text-align: center;
+    border: none;
+    padding: 5px 133px;
+    font-family: 'Jost';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #fff;
+}
+.chap_with_collections_div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+}
+.chap_collections_with_icon{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.chap_collections_icon{
+color: #360C55;
+font-size: 18px;
+}
+.chap_collections_text{
+font-family: 'Jost';
+font-size: 18px;
+font-weight: 400;
+line-height: 33.66px;
+text-align: left;
+color: #000;
+}
+.custom_abt_author_container{
+    padding-right:  30px;
+}
+.abt_author_publish_books {
+    background-color: #fff;
+    margin-top: 50px;
+    /* margin-bottom: 85px; */
+    padding-bottom: 24px;
+    border-top: 3px solid #6100A8;
+}
+.abt_author_bookcover{
+    margin-top: -20px;
+    padding-bottom: 28px;
+}
+.author_recommendation{
+    font-family: 'Jost';
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 73.4px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(#260042, #6100A8);
+    margin-bottom: 35px;
+
+}
+  
+
+@media (max-width:1100px){
+    /* .ranking_details {
+    
+        width: 50%;
+    } */
+    .star_points_img {
+      
+        right: -5px;
+    }
+    
+    .author_book_category_btn {
+        font-size: 12px;
+        padding: 2px 17px;
+    }
+    .author_book_updated_btn {
+      
+        padding: 5px 96px;
+    }
+}
+@media (max-width:991px){
+    /* .abt_author_action{
+        text-align: center;
+    } */
+    /* .abt_author_book_name{
+        text-align: center;
+    } */
+    /* .recent_dlt_btn_align{
+        text-align: center;
+    } */
+
+    .abt_author_img {
+        width: 34%;
+    }
+    /* .ranking_details {
+            width: 65%;
+        } */
+    .star_points_img {
+            right: -3px;
+        width: 7%;
+     }
+    .abt_author_bookcover {
+        padding-bottom: 0px; 
+        width: 39%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .custom_abt_author_container {
+        padding-left: 34px;
+    }
+}
+@media (max-width:600px){
+    .chap_collections_text{
+        font-size: 15px;
+    }
+    .abt_author_img {
+        width: 30%;
+        height: 30%;
+        margin-top: -46px
+    }
+    .arlemit_text {
+    
+        font-size: 28px;
+    }
+    .arlemit_img {
+        width: 23px;
+        height: 23px;
+    }
+    .ranking_details {
+            width: 65%;
+        }
+    .star_points_img {
+            right: -3px;
+        width: 7%;
+     }
+    .abt_author_bookcover {
+        padding-bottom: 0px; 
+        width: 39%;
+    }
+    .custom_abt_author_container {
+        padding-left: 34px;
+    }
+    .favorite_book_with_dropdown{
+      justify-content: start;
+    }
+    .social_box_main {
+        justify-content: start;
+    }
+    .global_icons_div {
+    
+        justify-content: start;
+    }
+    .star_points_img {
+        right: -7px;
+        width: 13%;
+    }
+    .author_recommendation{
+        font-size: 24px;
+    }
+    .publish_text {
+        font-size: 24px; 
+    }
+    .writing_text {
+    
+        font-size: 15px;
+    }
+    .writing_points {
+    
+        font-size: 26px;
+    
+    }
+    .writing_reading_bg {
+        padding: 24px 0px;
+        background-size: cover;
+    }
+    .more_icon_btn {
+      
+        padding: 7px 25px;
+    }
+    .social_text {
+
+        padding: 5px 91px;
+    }
+    .favorite_box {
+       
+        padding: 4px 61px;
+    }
+}
+@media (max-width: 375px) {
+    /* .ranking_details {
+        width: 71%;
+    } */
+}
+@media (max-width: 360px) {
+    .author_book_updated_btn {
+        padding: 5px 80px;
+    }
+}

@@ -1,0 +1,134 @@
+
+.rannking_btn_first_row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:27px;
+    align-items: baseline;
+}
+.ranking_filter_row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:27px;
+    align-items: center;
+}
+.nav-link.ranking_tabs_text {
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28.22px;
+    text-align: center;
+    color: #360C55;
+
+}
+.nav-link.ranking_tabs_text.active{
+    background: linear-gradient(135.34deg, #8C421D 15.43%, #FBE67B 38.47%, #FCFBE7 53.36%, #F7D14E 69.97%, #D4A041 86.26%);
+    color:#000000;
+    border-radius: 20px;
+    font-family: 'Jost';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.22px;
+    text-align: center;
+    padding: 3px 26px;
+    position: relative;
+}
+.nav-link.ranking_tabs_text.active::after{
+    color: #6100A8;
+    font-size: 30px;
+    font-weight: 900;
+    display: inline-block;
+    margin-right: 0.5em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+}
+.ranking_second_row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.top_rank_list_text{
+    font-family: Jost;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 81.61px;
+    text-align: center;
+    color: #360C55;
+}
+.abt_author_ranking_list {
+    background-color: #fff;
+    margin-top: 25px;
+    border-top: 3px solid #6100A8;
+    padding-bottom: 0;
+}
+.ranking_author_bookcover {
+    margin-top: -13px;
+    padding-bottom: 0;
+    max-width: 162px;
+    /* width: 133px; */
+    margin-bottom: 0px;
+    padding-left: 9px;
+}
+.ranking_chap_collections_div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.ranking_right_box{
+    padding: 0px 43px;
+}
+.ranking_add_btns_new{
+    padding: 13px 0px 10px;
+    justify-content: start;
+}
+
+
+@media (max-width:1024px){
+    .ranking_author_bookcover {
+        width: 112px;
+    }
+}
+
+
+@media (max-width:991px){
+    .nav-link.ranking_tabs_text {
+        font-size: 14px;
+    }
+    .nav-link.ranking_tabs_text.active {
+        font-size: 14px;
+    }
+    .abt_author_ranking_list {
+       
+        padding-bottom: 24px;
+    }
+    .ranking_author_bookcover {
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media (max-width:600px){
+    .top_rank_list_text {
+        font-size: 27px;
+    }
+
+}
+
+@media (max-width:390px){
+    .nav-link.ranking_tabs_text.active {
+        padding: 3px 20px;
+    }
+}

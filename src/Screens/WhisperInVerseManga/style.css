@@ -1,0 +1,31 @@
+.manga_edit_preview_btn_div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+
+}
+.typewriter_manga{
+    font-family: Jost;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 81.61px;
+    text-align: center;
+    color: #E6CCFF;
+
+}
+@media (max-width: 1280px) {
+    .typewriter_manga{
+        font-size: 47px;
+    }
+}
+@media (max-width:1024px){
+    .typewriter_manga{
+        font-size: 39px;
+    }
+}
+@media (max-width: 600px) {
+    .typewriter_manga {
+        font-size: 25px;
+    }
+}

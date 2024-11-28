@@ -1,0 +1,422 @@
+.coverss{
+  background-image: url(../../Assets//images/newbanner.png);
+  
+
+  background-position: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+}
+.coverss button.libs{
+
+  font-family: 'Poppins';
+  font-size: 17px;
+  font-weight: 400;
+ 
+  text-align: center;
+  background: #360c55;
+  color: #FFFFFF;
+  border-radius: 38px;
+  border: 1px solid #360c55;
+  padding-right: 0px;
+  text-align: center;
+  padding: 4px 52px;
+  position: relative;  
+}
+.coverss button.libs::after{
+  background-image: url(../../Assets//images/Polygon6.png);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  width: 37px;
+  height: 15px;
+  content: '';
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 40%;
+
+}
+  .mid {
+      padding: 0px 24px;
+  }
+
+.btnrww{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 10px;
+}
+.btnrow{
+  display: flex;
+  justify-content: end;
+  padding: 0px 14px;
+  gap: 10px;
+  
+}
+.watch{
+  position: relative;
+  text-align: center;
+}
+.poly{
+    position: absolute;
+    top: 490px;
+    left: 458px;
+    width: 35px;
+}
+.coverss button.history{
+  background: #fff;
+  color: #282828;
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  border-radius: 59px;
+  padding: 4px 52px;
+  border: #fff;
+
+}
+
+
+.coverss button.hist
+{
+  background: #fff;
+  color: #282828;
+  font-family: 'Poppins';
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  border-radius: 59px;
+  padding: 4px 40px;
+  border: #fff;
+}
+.books{
+  background-color: #fff;
+  margin-top: 50px;
+  margin-bottom: 85px;
+  padding-bottom: 24px
+}
+.books img.bookcover{
+  margin-top: -20px;
+  padding-bottom: 28px;
+}
+.books img.clock{
+  position: absolute;
+  left: -11px;
+  top: -43px;
+ 
+
+}
+.books h3.namee{
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30.17px;
+  text-align: left;
+  color: #2E2E2E;
+  padding: 14px;
+
+}
+.description{
+display: flex;
+justify-content: space-between;
+}
+.books button.cate{
+  font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    color: #360C55;
+    background: #D9D9D9;
+    border: #d9d9d9;
+    padding: 5px 33px;
+    border-radius: 23px;
+}
+.rates{
+  color: #360C55;
+  display: flex; 
+  padding: 20px;
+
+}
+.books p.rating{
+  font-family: 'Poppins';
+font-size: 14.45px;
+font-weight: 600;
+line-height: 25.69px;
+color: #360C55;
+line-height: 17.69px;
+margin-bottom: 0px;
+}
+.books p.detaill{
+  font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28.85px;
+    color: #2C2C2C;
+    padding: 0px 25px 15px 25px;
+
+}
+
+
+.res{
+  display: flex;
+  gap: 10px;
+}
+span.views{
+  font-family: 'Poppins';
+  font-size: 15px;
+    font-weight: 500;
+  line-height: 25.69px;
+  color: #360C55;
+  background: transparent;
+  border: transparent;
+  padding: 0px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.lines{
+  border: 1px solid #360C55;
+
+}
+.books p.nums{
+  font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.69px;
+    padding: 0px 15px;
+    color: #360C55;
+
+}
+span.numberr{
+  
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25.69px;
+    color: #696969;
+}
+
+span.drop{
+  font-family: 'Poppins';
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+color: #360C55;
+
+
+}
+span.pick{
+  font-family: 'Poppins';
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+color: #169B00;
+
+
+
+}
+
+.books button.reads{
+  font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: 400;
+    border: #000;
+    text-align: center;
+    background: #000;
+    color: #FFFFFF;
+    border-radius: 38px;
+    
+    padding-right: 0px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+
+}
+
+.iconn{
+
+  /* padding: 4px; */
+  background: #360C55;
+  border-radius: 1px 18px 17px 0px;
+  padding: 10px 15px 10px 11px;
+}
+.coverss button.reading{
+  font-family: 'Poppins';
+    font-size: 17px ;
+    font-weight: 400;
+    text-align: center;
+    background: #fff;
+    color: #360c55;
+    border-radius: 38px;
+    border: 0px solid #fff;
+    padding-right: 0px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 0px;
+
+}
+.maincate{
+  display: flex;
+  gap: 10px;
+}
+.icons{
+
+      background: #360C55;
+      border-radius: 1px 18px 17px 0px;
+      padding: 9px 18px 9px 11px;
+      color: #fff;
+}
+.books img.votee{
+  width: 20px;
+  height: 20px;
+}
+@media only screen and (max-width: 1024px){
+  .btnrww{
+     
+  } 
+  .coverss button.libs::after {
+
+    width: 27px;
+  }
+  .iconn {
+     
+      padding: 10px 11px 10px 11px;
+  }
+
+  .poly{
+      display: none;
+  }
+  .btnrow {
+      justify-content: left;
+
+  }
+  .books button.reads {
+      font-size: 10px;
+      gap: 12px;
+  
+  }
+  /* .res{
+      display: none;
+  } */
+  .books button.cate {
+  margin-top: 6px;
+  }
+  .books {
+    
+      padding-bottom: 20px;
+  }
+  /* .icons{
+      padding: 7px 5px 3px 5px;
+  } */
+  .coverss button.reading {
+      font-size: 10.45px;
+      padding-left: 15px;
+  
+  }
+  .coverss button.libs{
+    font-size: 12px;
+    padding: 7px 25px;
+
+  }
+  .coverss button.hist {
+    font-size: 12px;
+    padding: 2px 14px;
+}
+  .coverss button.history {
+    font-size: 12px;
+    padding: 2px 26px;}
+  .books {
+    
+      margin-bottom: 60px;
+  }
+
+
+  .books img.bookcover {
+
+      padding-bottom: 0px;
+  }
+  .books h3.namee {
+
+      font-size: 19.28px;
+}
+
+/* .book img.clock {
+
+  left: 40px;
+
+} */
+.btnrww {
+  justify-content: left;
+  padding: 0px 14px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.books button.reads {
+  font-size: 13px;
+ 
+}
+
+
+}
+/* @media only screen and (max-width: 320px){
+  .book img.clock {
+      top: -33px;
+      width: 25%;
+  }
+} */
+
+
+@media only screen and (max-width: 768px){
+ /* .books img.votee{
+  width: 26px;
+  height: 32px;
+} */
+ .res{
+  display: flex;
+ }
+ 
+
+}
+@media only screen and (max-width: 1440px){
+  /* .book button.read {
+      font-size: 10px;
+      gap: 12px;
+  
+  } */
+  .poly {
+    
+    left: 231px;
+  }
+}
+@media only screen and (min-width: 2560px){
+  .poly {
+    left: 785px;
+  }
+  .books img.clock {
+      left: 35px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .books img.clock {
+      left: 50px;
+  }
+  .coverss button.libs::after {
+
+    width: 27px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .books img.clock {
+      left: 79px;
+  }
+}

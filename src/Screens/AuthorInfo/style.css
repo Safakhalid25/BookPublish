@@ -1,0 +1,378 @@
+.book_cover_mockup_box{
+    border: 2px solid #B6B6B6;
+    background-color: transparent;
+    padding: 25px 19px;
+    border-radius: 13px;
+}
+.book_name_select {
+    font-family: Jost;
+    font-size: 17px;
+    padding: 12px;
+    font-weight: 400;
+    line-height: 21.5px;
+    color: #360C55;
+    /* background: #FFFFFF; */
+    border-radius: 9px;
+    border: 2px solid #6100A899;
+}
+.form-select.book_name_select {
+    --bs-form-select-bg-img: url(../../Assets/images/bookSelect.png) !important;
+ 
+}
+.form-select.book_name_select:focus {
+    border: none !important;
+    outline: none  !important;
+    box-shadow: none;
+
+}
+.doughnut_size{
+    width: 100%;
+    height: 500px;
+}
+.geographics_size{
+    width: 100%;
+    height: 500px;
+}
+.author_book_img{
+    width: 68%;
+}
+.author_book_name_text{
+    font-family: Jost;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38.7px;
+    text-align: left;
+    color: #360C55;
+    text-transform: capitalize;
+}
+.author_book_name_para{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34.5px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #3D3D3D;
+}
+.author_book_btn{
+    color: #fff;
+    background: #6100A8;
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 35.62px;
+    text-align: center;
+    border-radius: 28px;
+    border: none;
+    padding: 5px 28px;
+}
+.zero_auth_book{
+    font-family: Jost;
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #360C55;
+
+}
+.rating_auth_book_text{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35.62px;
+    text-align: left;
+    color: #151515;
+}
+.rating_book_percentage{
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 54.91px;
+    text-align: left;
+    color: #E20000;
+
+}
+.zero_percent_box_border{
+    border-right: 1px solid #000;
+    /* opacity: 70%; */
+}
+.high_rate_auth_book{
+    font-family: Jost;
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    /* text-shadow: linear-gradient(135.34deg, #8C421D 15.43%, #FBE67B 38.47%,
+     #FCFBE7 53.36%, #F7D14E 69.97%, #D4A041 86.26%); */
+     text-shadow: 2px 0 #8C421D, -3px 0 #FBE67B, 0 4px #FCFBE7 , 0 -3px #F7D14E ,
+     3px 2px #D4A041, 0px 1px #8C421D, 2px -3px #FBE67B, -1px 2px #FCFBE7;
+    color: #360C55;
+}
+.book_rating_div{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    align-items: end;
+    /* justify-content: center; */
+}
+
+.high_rate_arrow{
+    font-size: 33px;
+    color: #360C55;
+    transform: rotateZ(45deg);
+}
+
+.increment_number{
+    font-family: Jost;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 25.25px;
+    text-align: left;
+    color: #41BC00;
+}
+.metrics_text{
+    border: 2px solid #DADADA;
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.5px;
+    text-align: left;
+    color: #585858;
+    background: #F5F6FB;
+    padding: 11px 58px 11px 13px;
+    border-radius: 10px;
+
+}
+.daily_metrics_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.metrics_days_div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.metrics_days_text{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 37.55px;
+    text-align: left;
+    color: #360C55;
+}
+.metrics_divider{
+    background: #D9D9D9;
+    height: 7px;
+    width: 100%;
+    border-radius: 18px;
+}
+.metrics_mark_divider{
+    background: #6100A8;
+    height: 7px;
+    width: 30%;
+    border-radius: 18px;
+}
+.mana_use_growth_box{
+    background: linear-gradient(135deg, #EDEDED 100%, #FFFFFF 0%);
+    border: 2px solid #8030CC;
+    padding: 12px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 12px;
+}
+.mana_growth_head{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.44px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #360C55;
+    padding: 9px;
+}
+.mana_growth_number{
+    font-family: Jost;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    text-shadow: 2px 0 #8C421D, -3px 0 #FBE67B, 0 4px #FCFBE7 , 0 -3px #F7D14E ,
+    3px 2px #D4A041, 0px 1px #8C421D, 2px -3px #FBE67B, -1px 2px #FCFBE7;
+    color: #360C55;
+}
+.mana_growth_percentage{
+    font-family: Jost;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 25.25px;
+    text-align: center;
+    color: #AF0000;
+}
+
+@media (max-width:991px){
+    .total_mana_box_space{
+        margin-top: 30px;
+    }
+    .zero_percent_box_border {
+        border-right: none;
+   
+    }
+    .author_book_img {
+        width: 100%;
+    }
+    .zero_auth_book {   
+        font-size: 64px;
+        line-height: 44px;
+    }
+    .high_rate_auth_book { 
+        font-size: 64px;
+        line-height: 47px;
+    }
+    .rating_book_percentage {
+        font-size: 20px;
+        line-height: 44.91px;
+    }
+    .author_book_name_para {
+        font-size: 15px;
+        line-height: 39.5px;
+    }
+    .author_book_btn {
+       
+        font-size: 15px;
+        line-height: 27px;
+        padding: 5px 28px;
+    }
+}
+@media (max-width: 600px) {
+    .geographics_size {
+        width: 100%;
+        height: 339px;
+    }
+    .doughnut_size {
+        width: 100%;
+        height: 259px;
+    }
+    .metrics_days_text {
+        font-size: 15px;
+    }
+    .author_book_img {
+        width: 79%;
+    }
+    .author_book_name_text {
+        font-size: 27px;  
+    }
+    .high_rate_auth_book {
+        font-size: 50px;
+    }
+    .zero_auth_book {
+        font-size: 50px;
+    }
+   
+    .mana_growth_head {
+        font-size: 15px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /* path {
+    fill: #cdcad9;
+} */
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+
+
+
+
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 100%; /* Full height of the parent */
+    width: 100%; /* Full width of the parent */
+  }
+  
+  .legend-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Wrap legend items on small screens */
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+  }
+  
+  .legend-item span {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  

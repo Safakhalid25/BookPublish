@@ -1,0 +1,54 @@
+
+.file_upload_box{
+    border: 3px dashed #878787;
+    padding: 52px 10px 18px;
+    text-align: center;
+}
+.file_upload_img {
+    width: 14%;
+}
+.select_file_text{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 43.35px;
+    text-align: center;
+    color: #8F8F8F;
+
+}
+.file_upload_btn{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.01px;
+    text-align: center;
+    background: #404040;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 21px;
+    padding: 6px 12px;
+    width: 100%;
+    margin-top: 45px;
+
+}
+.publish_chap_manga_title{
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.manga_publish_title{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 10.46px;
+    text-align: center;
+    color: #FFFBEF;
+    background: #6100A8;
+    padding: 3px 13px;
+    border-radius: 31px;
+
+}

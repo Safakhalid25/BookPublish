@@ -1,0 +1,359 @@
+.include_seprate_text {
+  background: #e7e7e7;
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.46px;
+  text-align: center;
+  border-radius: 23px;
+  padding: 3px 21px;
+  color: #360c55;
+}
+.filter_radioo {
+  color: #360c55;
+  font-family: "Jost";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21.49px;
+  text-align: center;
+}
+
+.search-title {
+  font-size: large;
+  font-weight: 600;
+}
+.book-release-date {
+  color: #360c55;
+  padding: 10px 13px;
+  background-color: #d9d9d9;
+  border: 1px solid #9696ce;
+}
+.book-release-title {
+  /* font-size: x-large; */
+  font-family: "Jost";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30.1px;
+  text-align: left;
+  color: #262626;
+}
+.book-release-genre-dropdown {
+  border: 1px solid;
+  border-radius: 37px;
+  padding: 6px 8px;
+}
+
+.book-release-genre {
+  background: #360c55;
+  color: white;
+  border-radius: 21px;
+  font-size: larger;
+  padding: 7px 12px;
+}
+
+.radbtns {
+  display: flex;
+  flex-wrap: wrap;
+}
+input.filter-input {
+  border: 33px black;
+  background-color: #d6faee;
+}
+
+.book-release-input {
+  color: #360c55;
+  padding: 10px 13px;
+  background-color: #d9d9d9;
+  border: 1px solid #9696ce;
+  width: 100%;
+  font-size: 12px;
+}
+
+.genre-dropdowns_search_filter {
+  border: 1px solid;
+  border-radius: 37px;
+  padding: 9px 10px;
+  background-color: #d9d9d9;
+}
+
+.story {
+  padding-top: 37px;
+}
+::selection {
+  color: #fff;
+  background: #17a2b8;
+}
+.wrapper {
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 25px 40px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+}
+header h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+header p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+.price-input {
+  width: 100%;
+  display: flex;
+  margin: 30px 0 35px;
+}
+.price-input .field {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  align-items: center;
+}
+.field input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 19px;
+  margin-left: 12px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #999;
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.price-input .separator {
+  width: 130px;
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+}
+.slider {
+  height: 5px;
+  position: relative;
+  background: #ddd;
+  border-radius: 5px;
+}
+.slider .progress {
+  height: 100%;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  border-radius: 5px;
+  background: #17a2b8;
+}
+.range-input {
+  position: relative;
+}
+.range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: #17a2b8;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: #17a2b8;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Support */
+.support-box {
+  top: 2rem;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  display: block;
+}
+.b-btn {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.b-btn.paypal i {
+  color: blue;
+}
+.b-btn:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.b-btn i {
+  font-size: 20px;
+  color: yellow;
+  margin-top: 2rem;
+}
+
+.rangepara {
+  font-size: x-large;
+  color: #262626;
+  font-weight: 600;
+  margin-top: -11px;
+}
+.bookGenre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.chapterrange {
+  font-size: larger;
+  color: #360c55;
+  font-weight: 600;
+  margin-top: -9px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  display: block;
+  width: 8%;
+  height: 10px;
+  padding: -1px;
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    360C55 53%,
+    rgb(229 229 229) 55%
+  ) !important;
+  /* background: #360C55; */
+  /* background: linear-gradient(90deg, #360C55 53%), */
+  /* box-sizing: content-box; */
+  /* background: linear-gradient(90deg, rgb(44 6 87) 53%, rgb(229 229 229) 55%) !important; */
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px !important;
+  height: 30px !important;
+  background: #360c55 !important;
+  cursor: pointer;
+  border-radius: 50px !important
+      ;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 10px !important;
+  height: 10px !important;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.range-slider__tooltip {
+  left: calc(25% + 5px);
+  position: relative;
+  top: 10px;
+}
+
+.search-filter {
+  position: relative;
+  overflow: hidden;
+  background-image: url(../../Assets/images/searchFilter.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.main_cartoon_image img {
+  position: absolute;
+  bottom: -128px;
+  height: 700px;
+  right: -450px;
+}
+
+@media (max-width: 1440px) {
+  .genre-dropdowns_search_filter {
+    width: 87%;
+  }
+}
+@media (max-width: 1024px) {
+  .rangepara {
+    font-size: 18px;
+  }
+  .genre-dropdowns_search_filter {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .genre-dropdowns_search_filter {
+    width: 88%;
+    padding: 3px 10px;
+  }
+  .rangepara {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    padding: 0;
+    font-size: 14px;
+  }
+  .book-release-title {
+    font-size: 14px;
+  }
+  .book-release-date {
+    padding: 3px 13px;
+  }
+  .book-release-genre-dropdown {
+    padding: 4px 12px;
+    justify-content: left;
+  }
+  .search-title {
+    font-size: 15px;
+  }
+  .filter_radio {
+    font-size: 12px;
+  }
+  .story {
+    padding-top: 29px;
+    font-size: 14px;
+  }
+
+  .chapterrange {
+    font-size: 13px;
+  }
+  input[type="range"] {
+    height: 5px !important;
+  }
+  .book-release-genre {
+    font-size: 9px;
+    padding: 7px 9px;
+  }
+}
+
+@media (max-width: 800px) {
+  .genre-dropdowns_search_filter {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .main_cartoon_image img {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .bookGenre {
+    gap: 0.5rem;
+  }
+}

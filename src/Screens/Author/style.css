@@ -1,0 +1,652 @@
+/* .discussion_tab_links:active{
+    background: #360C55;
+    color:#fff;
+    border-radius: 20px;
+    font-family: 'Jost';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+} */
+
+.author_note_img{
+    width: 29px;
+}
+.author_chap_note_div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+.author_note_with_tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.auth_bk_img{
+    width: 140px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: -35px;
+    position: relative;
+    z-index: 9999;
+}
+.new_auth_bk_text{
+    font-family: Jost;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23.87px;
+    text-align: left;
+    color: #6100A8;
+}
+.author_views_haed_space{
+    padding: 30px;
+}
+.author_book_main_box{
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.new_author_book_name{
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36.61px;
+    text-align: left;
+    color: #090909;
+}
+.author_book_write_btn{
+    background: #360C55;
+    padding: 6px 113px;
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25.69px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+.author_book_divider{
+    width: 100%;
+    height: 2px;
+    background-color: #86868659;
+}
+.divider_apply_for{
+    background-color: #360C55;
+    height: 4px;
+    margin-top: 75px;
+}
+
+.apply_for_contact_div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 25px;
+}
+.ready_to_apply_heading{
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 43.35px;
+    text-align: left;
+    color: #222222;
+    text-transform: capitalize;
+}
+.ready_to_apply_text{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36.13px;
+    text-align: left;
+    color: #2F2F2F;
+
+}
+.author_earnings_bg{
+    background-image: url(../../Assets/images/authorearning.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 50px 12px; */
+}
+.author_earn_head{
+    font-family: Jost;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 48.12px;
+    text-align: center;
+    color: #6100A8;
+    text-transform: uppercase;
+}
+.author_sub_head{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 36.77px;
+    color: #fff;
+    text-align: center;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke: 2px #9B00FFE5;
+	text-shadow: 0 0 0 #fff;
+	transition: all 250ms;
+    /* font-family: Jost;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 36.77px;
+    text-align: center;
+    color: #fff; */
+}
+.earn_cartoon_img{
+    margin-top: -47px;
+}
+.view_earnings_mana_box{
+    border: 2px solid #AA37FF;
+    /* border-image-source: linear-gradient(269.85deg, #AA37FF 0%, #8030CC 65.66%); */
+    background: #F6F6F6;
+    padding: 20px 20px;
+    height: 100%;
+}
+
+.earn_mana_date_select_div{
+    background: #F6F6F6;
+    border: 1px solid #6060601F;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 7px;
+    /* margin: 0px 10px; */
+
+}
+.earn_mana_date{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #5C5C5C;
+    border: none;
+    background-color: transparent;
+}
+.earn_mana_date_input{
+    border: none;
+    background: transparent;
+    font-family: Jost;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13.27px;
+    text-align: center;
+    color: #090909;
+}
+.date_divider{
+    background-color: #000000;
+    height: 16px;
+    width: 1px;
+    opacity: 20%;
+}
+.view_mana_gift_earn_box{
+    border: 1.5px solid #8030CC;
+    background: linear-gradient(134deg, #eaeaeaab 100%, #ffffffba 0%);
+    padding: 12px 10px;
+    box-shadow: 0.91px 0.91px 2.72px 0px #F3F3F3E5;
+    min-width: 22%;
+}
+
+.view_mana_gift_earn_head{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.13px;
+    text-align: center;
+    color: #6100A8;
+    text-transform: uppercase;
+}
+
+.view_mana_gift_earn_sub_head{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.97px;
+    text-align: center;
+    color: #090909;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid #8030CC;
+    padding-bottom: 5px;
+}
+.view_mana_gift_earn_text{
+    font-family: Jost;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20.39px;
+    text-align: left;
+    color: #2E2E2E;
+
+}
+.view_mana_gift_earn_number{
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.97px;
+    text-align: center;
+    color: #8030CC;
+
+}
+.estimate_revenue_box{
+    border: 1.5px solid #8030CC;
+    background: #fff;
+    padding: 7px 12px;
+    box-shadow: 0.91px 0.91px 2.72px 0px #F3F3F3E5;
+    /* height: 100%; */
+    min-width: 26%;
+}
+.estimate_revenue_head{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13.87px;
+    text-align: left;
+    color: #2E2E2E;
+}
+.estimate_revenue_ammount{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40.21px;
+    text-align: left;
+    color: #00A82F;
+}
+.revenue_arrow_icon{
+    color:#fff;
+    background: #6100A8;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.revenue_ammount_div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.withdrawal_btn{
+    background: #6100A8;
+    font-family: Jost;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.23px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 6px;
+   
+}
+.estimate_revenue_major_div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.real_time_libraray_box{
+    border: 2px solid #BABABA;
+    background-color: #fff;
+    padding: 10px 12px;
+}
+.real_time_heading{
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 15.87px;
+    text-align: left;
+    color: #6100A8;
+    text-transform: uppercase;
+}
+.updating_life_text{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #090909;
+    text-transform: uppercase;
+}
+.online_update{
+    background-color: #00A82F;
+    width: 8px;
+    height: 8px;
+    padding: 4px;
+    border-radius: 50%;
+}
+.updating_life_div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0px;
+}
+.real_time_divider{
+    background-color:#CBCBCB;
+    height: 1px;
+
+}
+.real_time_numbers{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #2E2E2E;
+}
+.right_box_space{
+    margin: 20px 0px;
+}
+.your_book_library_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px 0px;
+    align-items: center;
+}
+.your_book_text{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #6100A8;
+    text-transform: uppercase;
+}
+.your_book_view_text{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090909;
+}
+
+.earn_book_detail_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+.your_library_book_img{
+    width: 25%;
+}
+.your_library_name{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #090909;
+}
+.your_library_number{
+    font-family: Jost;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #2E2E2E;
+
+}
+.real_time_btn_div{
+    display: flex;
+    justify-content: center;
+  margin-bottom: 30px;
+}
+.real_time_btn{
+    background: #6100A8;
+    color:#FFF;
+    border-radius:15px ;
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31.68px;
+    text-align: center;
+    border: none;
+    width: 100%;
+}
+
+.earn_mana_date_select {
+    width: 60%;
+    border: none;
+    background-color: transparent;
+    font-family: Jost;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13.27px;
+    color: #090909;
+}
+.form-select.earn_mana_date_select {
+    --bs-form-select-bg-img: url(../../Assets/images/bookSelect.png) !important;
+    background-size: 4% 29%;
+}
+.form-select.earn_mana_date_select:focus {
+    border: none !important;
+    outline: none  !important;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mew css for tabs start  */
+
+
+.animate_bg_new{
+    background-image: url(../../Assets/images/authorearning.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.author_earning_heading_new{
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+    color: #6100A8;
+    text-transform: uppercase;
+}
+.date_recieved_heading{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 36.77px;
+    color: #fff;
+    text-align: center;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke: 2px #9B00FFE5;
+	text-shadow: 0 0 0 #fff;
+	transition: all 250ms;
+}
+.animate_text_box{
+    padding: 22px 12px;
+
+}
+.animate_img_position img{
+    margin-top: -35px;
+    max-width: 210px;
+}
+.view_earnings_box_new{
+    background: #F6F6F6;
+    border: 2px solid #8030CC;
+   
+}
+.date_box_new{
+    background: #F6F6F6;
+    border: 1px solid #6060601F;
+    padding: 5px 12px;
+    display: flex;
+    gap: 12px;
+}
+.sept_date_text{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #5C5C5C;
+
+}
+.form-select-new{
+    border: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mew css for tabs end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1180px){
+    .earn_cartoon_img {
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width:1067px){
+.author_book_write_btn {
+    padding: 6px 97px;
+}
+/* .earn_mana_date_select {
+    width: 59%;
+} */
+.your_library_name {
+    font-size: 12px;
+}
+
+.your_library_number {
+    font-size: 11px;
+}
+.author_sub_head {
+    font-size: 26px;
+}
+
+
+}
+/* @media only (min-width:992) and (max-width:1120px){
+
+} */
+@media (max-width:991px){
+    .auth_bk_img {
+        margin-bottom: 0px;
+    }
+    /* .estimate_revenue_major_div {
+        justify-content: center;
+    } */
+    .author_sub_head {
+        font-size: 20px;
+    }
+    .author_earn_head {
+        font-size: 29px;
+    }
+    .real_time_space{
+        margin-top: 30px;
+    }
+    .your_library_name {
+        font-size: 15px;
+    }
+    .your_library_number {
+        font-size: 14px;
+    }
+}
+@media (max-width:600px){
+    .author_book_main_box {
+        align-items: center;
+        margin-top: 27px;
+    }
+
+    .form-select.earn_mana_date_select {
+        background-size: 4% 31%;
+    }
+
+    .estimate_revenue_major_div {
+        justify-content: center;
+    }
+
+    .earn_mana_date_select{
+        width: 100%;
+    }
+    .author_note_with_tabs {
+        justify-content: center;
+    }
+    .earn_cartoon_img {
+
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+    .author_sub_head {
+        font-size: 16px;
+    }
+    .author_earn_head {
+        font-size: 22px;
+    }
+}

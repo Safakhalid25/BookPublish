@@ -1,0 +1,703 @@
+.topfive{
+    font-family: 'Jost';
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 92.79px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.novelVote {
+    font-family: 'Jost';
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.recent{
+    background-image: url(../../Assets/images/book-listing-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 80px 0px;
+}
+.picked{
+    font-family: 'Jost';
+    font-size: 37px;
+    font-weight: 900;
+    color: #6100A8;
+    text-transform: uppercase;
+}
+.nav-pills .nav-link.active.recentbtn {
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: center;
+    background-color: #360C55;
+    color: #fff;
+    position: relative;
+    padding: 7px 45px;
+    border: none;
+    border-radius: 34px;
+    display: block;
+    
+}
+
+.nav-pills .nav-link.recomend {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding: 6px 25px;
+    color: #282828;
+}
+
+.nav-pills .nav-link.active.recentbtn:focus::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -3px;
+    background-image: url("../../Assets/images/Polygon6.png");
+    display: block;
+    z-index: 20;
+    height: 23px;
+    width: 31px;
+    background-size: 100% 100%;
+    transform: translateX(-50%);
+}
+
+
+
+.votebtn {
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    color: #360C55;
+    background: #FFFFFF;
+    border-radius: 38px;
+    border: #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 22px;
+    padding-right: 0px;
+    display: block;
+}
+
+.votebtn:first-child{
+    margin-bottom: 7px;
+    padding-left: 28px;
+}
+.voteicon {
+    background: #360C55;
+    border-radius: 1px 18px 17px 0px;
+    padding: 5px 13px 6px 11px;
+}
+
+
+.dualbtn{
+   
+    border: 2px solid #6100A8;
+    border-radius: 23px;
+    padding: 5px 10px;
+  
+    width: fit-content;
+}
+.translation_request_buttons_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 10px;
+}
+
+.divider{
+    background-color: #6100A8;
+    height: 4px;
+    width: 100%;
+    margin-top: 35px;
+}
+.dividerr{
+    background-color: #6100A8;
+    height: 4px;
+    width: 100%;
+    margin-top: 10px;
+}
+.rankbook{
+    background-image: url(../../Assets/images/bk1.png);
+    background-repeat: no-repeat;
+    padding: 396px 0px 20px 8px;
+    border-radius: 21px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.authorprof{
+    height: 40px;
+    width: 40px;
+}
+.authorprofile{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 6px; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-left: 12px;
+    margin-top: -52px;
+}
+.bookboxes{
+   gap: 24px;
+   /* flex-wrap: nowrap; */
+   margin-top: 50px;
+}
+.vote_actionBtn{
+    position: absolute;
+    top: -32px;
+    right: -45px;
+}
+
+.mainrating{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.profilename{
+    font-family: 'Poppins';
+    font-size: 14px;
+    text-align: left;
+    color: #fff;  
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.starRate{
+    color: #F8C100;
+    font-size: 12px;
+}
+.rankbook1{
+    background-image: url(../../Assets/images/bk2.png);
+    background-repeat: no-repeat;
+    padding: 396px 0px 20px 8px;
+    border-radius: 21px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.rankbook2{
+    background-image: url(../../Assets/images/bk3.png);
+    background-repeat: no-repeat;
+    padding: 396px 0px 20px 8px;
+    border-radius: 21px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.rankbook3{
+    background-image: url(../../Assets/images/bk4.png);
+    background-repeat: no-repeat;
+    padding: 396px 0px 20px 8px;
+    border-radius: 21px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.topfive__book-sec {
+    background-image: url(../../Assets/images/bookscovers.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 100px 0 0;
+    position: relative;
+  }
+.new_bookcover_img{
+    margin-left: 10px;
+}
+.readbtns{
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    background: #000;
+    color: #FFFFFF;
+    border-radius: 38px;
+    border: #000;
+    padding-right: 0px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    padding-right: 0px;
+}
+/* new section css start */
+
+.completion_btn_one {
+    border-radius: 0px !important;
+    border: none !important;
+    color: #fff !important;
+    border-top-left-radius: 37px !important;
+    border-bottom-left-radius: 37px !important;
+    background-color: #161616 !important;
+}
+.compition-category__icon_translate {
+    background-color: #360c55 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-top-right-radius: 37px !important;
+    border-bottom-right-radius: 37px !important;
+    font-size: 13px !important;
+    padding: 12px 28px;
+}
+.completion-input_one {
+    font-size: 11px;
+    width: 50%;
+    background-color: #161616 !important;
+    border-radius: 0px !important;
+    border: none !important;
+    color: #fff !important;
+      
+}
+.completion-input_one::placeholder{
+    color: #fff !important;
+}
+.completion-input-select_one  {
+        border-radius: 53px !important;
+        background-color: #161616 !important;
+        color: #fff !important;
+        text-align: center;
+        padding: 10px 66px;
+        width: max-content;
+    }
+.filter {
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    background: #000;
+    color: #FFFFFF;
+    border-radius: 38px;
+    border: #000;
+    padding-right: 0px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 45px;
+    padding-right: 0px;
+    }
+  
+.filter_icon {
+        background: #360C55;
+        border-radius: 1px 30px 30px 0px;
+        padding: 17px 21px 17px 24px;
+        margin-left: 20px;
+        color: #fff;
+    }  
+    
+.filter_dropdown{
+    background-color: #161616;
+}
+.filter_dropdown_list{
+color: #fff;
+}
+.filter_dropdown_list:hover{
+    color: #fff;
+    background: #360C55;
+}
+.create {
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    background: #000;
+    color: #FFFFFF;
+    border-radius: 38px;
+    border: #000;
+    padding-right: 0px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 45px;
+    padding-right: 0px;
+}
+      
+.create_icon {
+    background: #360C55;
+    border-radius: 1px 30px 30px 0px;
+    padding: 12px 20px 12px 23px;
+    margin-left: 20px;
+    color: #fff;
+ }    
+.top_five{
+    font-family: 'Jost';
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 35.14px;
+    color: #fff;
+    background-color: #360C55;
+    text-align: center;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+.top_five_book {
+    width: 120px;
+    height: 80%;
+    border-radius: 10px;
+}
+.book_name{
+    font-family: 'Jost';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.49px;
+    /* text-align: center; */
+    color: #000;
+    margin-top: 10px;
+}
+.top_five_stars{
+    color: #FF9900;
+}
+.star_row{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.image_row_center{
+    text-align: center;
+}
+/* new section css end */
+
+    @media  (max-width: 991px){
+        .create_icon {
+            padding: 8px 20px 8px 20px;
+        }
+        .new_bookcover_img{
+            width: 30%;
+        }
+        .bookk img.clock {
+          left: 125px;
+         }
+         .bookk button.category {
+            font-size: 11px;
+         }
+        .mainly {
+            padding-left: 14px;
+         }
+        .vote_actionBtn {
+            right: 53px !important;
+        }
+        .rankbook {
+            padding: 396px 0px 20px 51px;
+            background-size: 82% 100%;
+        }
+        .rankbook1{
+            padding: 396px 0px 20px 51px;
+            background-size: 82% 100%;
+            }
+            .rankbook2{
+                padding: 396px 0px 20px 51px;
+                background-size: 82% 100%;
+            }
+            .rankbook3{
+                padding: 396px 0px 20px 51px;
+                background-size: 82% 100%;
+            }
+            .rankbook {
+                padding: 396px 0px 27px 28px !important;
+                background-size: 60% 95% !important;
+            }
+            .rankbook1{
+                padding: 396px 0px 27px 28px !important;
+                background-size: 60% 95% !important;
+            }
+            .rankbook2{
+                padding: 396px 0px 27px 28px !important;
+                background-size: 60% 95% !important;
+            }
+            .rankbook3{
+                padding: 396px 0px 27px 28px !important;
+                background-size: 60% 95% !important;
+            }
+            .authorprofile {
+                padding-left: 109px;
+            }
+        .star_row {
+         margin-bottom: 37px;
+            }
+        .top_five_book {
+            width: 183px;
+            }
+
+        .update_img_competition_win_space{
+            margin-top: 50px;
+        }
+
+        }
+
+@media  (max-width: 950px){
+
+    .vote_actionBtn {
+      right: 20px !important;
+        }
+    .nav-pills .nav-link.recomend {
+     font-size: 10px;
+     }
+    .nav-pills .nav-link.active.recentbtn {
+     font-size: 10px;
+      }
+      .authorprofile {
+        padding-left: 100px;
+    }
+ }
+
+@media (max-width:800px){
+    .authorprofile {
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 768px){
+    .authorprofile {
+        padding-left: 53px;
+    }
+    .rankbook {
+        padding: 396px 0px 20px 28px !important;
+        background-size: 86% 90% !important;
+     }
+    .rankbook1{
+        padding: 396px 0px 20px 28px !important;
+        background-size: 86% 90% !important;
+     }
+    .rankbook2{
+        padding: 396px 0px 20px 28px !important;
+         background-size: 86% 90% !important;
+     }
+    .rankbook3{
+        padding: 396px 0px 20px 28px !important;
+        background-size: 86% 90% !important;
+     }
+            /* .bookboxes{
+                flex-wrap: wrap;
+            } */
+            .nav-pills .nav-link.recomend{
+                font-size: 9px;
+                padding: 8px 10px;
+                 
+                }
+            .star_row {
+            margin-bottom: 37px;
+             }
+             .top_five_book {
+                width: 139px !important;
+            }
+            .nav-pills .nav-link.active.recentbtn {
+                    font-size: 9px !important;
+                    padding: 7px 38px;
+                    }
+                    .picked {
+                        font-size: 30px;
+                    }
+                    .vote_actionBtn {
+                        position: relative;
+                    }
+                    .bookboxes {
+                        gap: 0px;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    /* .rankbook2 {
+                        margin-top: 41px;
+                    } */
+                    /* .rankbook3 {
+                        margin-top: 41px;
+                    } */
+                    .recent {
+                        padding: 40px 0px;
+                    }
+                    .vote_actionBtn {
+                        right: -60px !important;
+                }
+                .bookk img.clock {
+                    left: 79px;
+                }
+        
+        }
+
+
+
+
+@media  (max-width: 1025px){
+   .bookboxes {
+     gap: 0px;
+      flex-wrap: wrap;
+   }
+  .vote_actionBtn {
+    right: -86px;
+    }
+
+}
+
+
+
+
+  /* @media  (max-width: 480px){
+    .bookk img.clock {
+       left: 107px;
+   }
+       } */
+  @media only screen and (min-width: 1024px){
+    .vote_actionBtn {
+        right: -9px;
+  }
+  /* .profilename {
+
+    font-size: 9px;
+} */
+.starRate {
+
+    font-size: 9px;
+}
+.mainrating {
+
+    gap: 3px;
+}
+.bookboxes {
+    gap: 0px;
+}
+.book_name {
+    font-size: 13px;
+}
+.star_row {
+  gap: 3px;
+}
+.top_five_book {
+    width: 100px;
+}
+}
+@media (max-width:600px){
+    .update_img_competition_win_space{
+        margin-top: 0px;
+    }
+    .filter{
+        margin-top: 10px;
+        }
+        .create {
+         margin-top: 10px;
+        }
+    
+  .filter {
+    font-size: 10px;
+    padding-left: 38px;
+}
+.filter_icon {
+ 
+    padding: 17px 14px 17px 14px;
+}
+.create {
+    font-size: 10px;
+    padding-left: 38px;
+}
+.translation_request_buttons_div {
+    gap: 6px;
+}
+.bookboxes {
+    margin-top: 0px;
+}
+    /* .create_icon {
+        padding: 12px 15px 12px 17px;
+      } */
+}
+
+
+
+@media (max-width:600px){
+ 
+      .translation_request_buttons_div{
+        justify-content: left;
+      }
+      .create_icon {
+        padding: 7px 18px 7px 23px;
+    }
+ 
+}
+@media  (max-width: 480px){
+    .bookk img.clock {
+        left: 108px;
+    }
+    .picked {
+        font-size: 17px;
+    }
+
+    .vote_actionBtn {
+        position: relative;
+    }
+    /* .rankbook1 {
+        margin-top: 41px;
+    } */
+    .dualbtn {
+        margin-top: 9px;
+    }
+   
+    .star_row {
+    
+        margin-bottom: 37px;
+    }
+    .top_five {
+        font-size: 13px;
+    }
+    .top_five_book {
+        width: 156px !important;
+    }
+    /* .rankbook {
+        background-size: 90% 100%;
+    } */
+    .rankbook1 {
+        padding: 396px 0px 36px 28px !important;
+        background-size: 72% 83% !important;;
+    }
+    .rankbook2 {
+        padding: 396px 0px 36px 28px !important;
+        background-size: 72% 83% !important;
+    }
+    .rankbook3 {
+        padding: 396px 0px 36px 28px !important;
+        background-size: 72% 83% !important;
+    }
+    .authorprofile {
+        padding-left: 104px;
+    }
+    .vote_actionBtn {
+        right: -34px !important;
+    }
+    .rankbook {
+        padding: 396px 0px 36px 28px !important;
+        background-size: 72% 83% !important;
+    }
+  }
+  @media (max-width: 428px) {
+    .authorprofile {
+        padding-left: 75px;
+    }
+    }
+
+@media (max-width: 375px) {
+.vote_actionBtn {
+    right: -47px !important;
+     }
+ .rankbook {
+    padding: 396px 0px 36px 28px !important;
+    background-size: 85% 80% !important;
+    }
+  .authorprofile {
+    padding-left: 42px
+     }
+    .rankbook1 {
+    padding: 396px 0px 36px 28px !important;
+    background-size: 85% 80% !important;
+   }
+   .rankbook2 {
+    padding: 396px 0px 36px 28px !important;
+    background-size: 85% 80% !important;
+   }
+   .rankbook3 {
+     padding: 396px 0px 36px 28px !important;
+     background-size: 85% 80% !important;
+    }
+}
